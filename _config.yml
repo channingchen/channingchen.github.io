@@ -1,0 +1,16 @@
+#markdown: rdiscount
+permalink: /:title/
+url: http://github.thinkingbar.com
+#highlighter: pygments
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 100
+paginate_path: "page:num"
+name: Channing Chen's Blog 
+description: Channing Chen's Blog
+author: channingchen
+email: jslygcm@gmail.com
+duoshuo: channingchen
+weibo: 
+hub: 
+safe: false
