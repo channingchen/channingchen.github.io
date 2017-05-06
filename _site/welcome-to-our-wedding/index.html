@@ -58,7 +58,32 @@
   
 </section>
 <section class="post">
-  <p>我们的婚礼将于2017年6月4号中午在连云港举办，欢迎你的光临！</p>
+  
+<script type="text/javascript">  
+function initialize() {  
+	var map = new BMap.Map('map');  
+	var point = new BMap.Point(119.176348,34.605934);
+	map.centerAndZoom(point, 25);               
+	map.enableScrollWheelZoom();   
+	var marker = new BMap.Marker(point);  // 创建标注
+	map.addOverlay(marker);               // 将标注添加到地图中
+	// marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+}  
+   
+function loadScript() {  
+  var script = document.createElement("script");  
+  script.src = "http://api.map.baidu.com/api?v=2.0&ak=8ad571f52ec70fc5939ba9c9bdb01408&callback=initialize";//此为v2.0版本的引用方式  
+  document.body.appendChild(script);  
+}  
+   
+window.onload = loadScript;  
+</script>
+
+<p>我们的婚礼将于2017年6月4号中午在连云港举办，欢迎你的光临！</p>
+
+<p>地点：</p>
+<div id="map" style="width:100%;height:320px"></div>
+
 
 </section>
 <section align="right">
@@ -69,22 +94,6 @@
     <a   class="pageNavInvalid"  >下一篇</a>
   </span>
 </section>
-
-	
-	<div class="ds-thread" />
-		
-	<script type="text/javascript">
-	var duoshuoQuery = {short_name:"channingchen"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = 'http://static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		|| document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-
 
         </article>
       </div>
