@@ -1,4 +1,5 @@
 ---
+layout: null
 title: welcome to our wedding
 categories: wedding
 tags: wedding
