@@ -16,20 +16,47 @@ function loadScript() {
 
 window.onload = loadScript;
 
+function loadMap(){
+	var map = new BMap.Map('cboxLoadedContent');  
+	var homePoint = new BMap.Point(119.176348,34.605934);
+	map.centerAndZoom(homePoint, 25);               
+	map.enableScrollWheelZoom(); 
+
+	var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_BOTTOM_LEFT});// 左上角，添加比例尺
+	var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件  
+	map.addControl(top_left_control);        
+	map.addControl(top_left_navigation);  
+
+	var geolocationControl = new BMap.GeolocationControl();
+	geolocationControl.addEventListener("locationSuccess", function(e){
+		var points = new Array();
+		points[0] = e.point;
+		points[1] = homePoint;
+		var view = map.getViewport(points);
+		map.centerAndZoom(view.center, view.zoom);
+	});
+	geolocationControl.addEventListener("locationError",function(e){
+		alert('定位失败');
+	});
+	map.addControl(geolocationControl);
+
+	var stCtrl = new BMap.PanoramaControl(); //构造全景控件
+	stCtrl.setOffset(new BMap.Size(20, 20));
+	map.addControl(stCtrl);//添加全景控件
+
+	var hotelMark = new BMap.Icon("../image/hotel-mark.png", new BMap.Size(40,140));
+	var marker = new BMap.Marker(homePoint, {icon:hotelMark});  // 创建标注
+	map.addOverlay(marker); 
+
+}
+
 $(document).ready(function(){
 	$("#helloguest").text(getQueryString("helloguest"));
 
 	$(".group4").colorbox({rel:'group4', slideshow:true, width:"90%", height:"90%"});
 	$(".map").colorbox({
 		rel:'map', width:"90%", height:"90%",
-		onComplete:function(){
-			var map = new BMap.Map('cboxLoadedContent');  
-			var point = new BMap.Point(119.176348,34.605934);
-			map.centerAndZoom(point, 25);               
-			map.enableScrollWheelZoom();   
-			var marker = new BMap.Marker(point);  // 创建标注
-			map.addOverlay(marker); 
-		}
+		onComplete: loadMap
 	});
 });
 </script>
