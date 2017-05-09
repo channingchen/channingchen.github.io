@@ -1,5 +1,5 @@
 ---
-title: 欢迎光临我们的婚礼
+title: welcome to our wedding
 categories: wedding
 tags: wedding
 ---

@@ -1,3 +1,5 @@
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 <style type="text/css">
 	#map{
 		width:100%;
@@ -5,7 +7,15 @@
 	}
 </style>
 
+<script type="text/javascript" src="../media/js/jquery-1.7.1.min.js"></script>
+
 <script type="text/javascript">  
+function getQueryString(name) { 
+	var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+	var r = window.location.search.substr(1).match(reg); 
+	if (r != null) return unescape(r[2]); return null; 
+} 
+
 function initialize() {  
 	var map = new BMap.Map('map');  
 	var point = new BMap.Point(119.176348,34.605934);
@@ -14,7 +24,10 @@ function initialize() {
 	var marker = new BMap.Marker(point);  // 创建标注
 	map.addOverlay(marker);               // 将标注添加到地图中
 	// marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+
+	$("#guestname").text(getQueryString("guestname"));
 }  
+
 function loadScript() {  
   var script = document.createElement("script");  
   script.src = "https://api.map.baidu.com/api?v=2.0&ak=8ad571f52ec70fc5939ba9c9bdb01408&callback=initialize";//此为v2.0版本的引用方式  
@@ -24,19 +37,10 @@ window.onload = loadScript;
 
 </script>
 
-<!--PC版-->
-<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js"></script>
-
-<script type="text/javascript">
-window.changyan.api.config({
-appid: 'cyt0eOIeA',
-conf: 'prod_2b22552ac5581986d64b1efe223b6045'
-});
-</script>
+<p>hi, <span id="guestname"></span></p>
 
 <p>我们的婚礼将于2017年6月4号中午在连云港举办，欢迎你的光临！</p>
 
 <p>地点：</p>
 <div id="map"></div>
-<div id="SOHUCS" sid="test"></div>
 
