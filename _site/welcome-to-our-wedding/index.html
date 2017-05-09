@@ -1,64 +1,10 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="channingchen" />
-    <title>欢迎光临我们的婚礼</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link href="/feed/" rel="alternate" title="channingchen" type="application/atom+xml" />
-    <link rel="stylesheet" href="/media/css/style.css" />
-    <link rel="stylesheet" href="/media/css/highlight.css" media="all"/>
-    <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<style type="text/css">
+	#map{
+		width:100%;
+		height:200px;
+	}
+</style>
 
-      ga('create', 'UA-72892124-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-  </head>
-  <body>
-    <div id="container">
-      <div id="main" role="main">
-        <header>
-          <h1>欢迎光临我们的婚礼</h1>
-        </header>
-        <nav>
-          <span><a title="首页" class="" href="/">首页</a></span>
-          <span><a title="分类" class="" href="/categories/">分类</a></span>
-          <span><a title="标签" class="" href="/tags/">标签</a></span>
-          <span><a title="留言" class="" href="/guestbook/">留言</a></span>
-          <span><a title="关于" class="" href="/about/">关于</a></span>
-        </nav>
-        <article class="content">
-          <section class="meta">
-  <span class="time">
-    <time datetime="2017-05-06">2017-05-06</time>
-  </span>
-  
-  | 
-  <span class="categories">
-    分类
-    
-    <a href="/categories/#wedding" title="wedding">wedding</a>&nbsp;
-    
-  </span>
-  
-  
-  | 
-  <span class="tags">
-    标签
-    
-    <a href="/tags/#wedding" title="wedding">wedding</a>&nbsp;
-    
-  </span>
-  
-</section>
-<section class="post">
-  
 <script type="text/javascript">  
 function initialize() {  
 	var map = new BMap.Map('map');  
@@ -69,41 +15,20 @@ function initialize() {
 	map.addOverlay(marker);               // 将标注添加到地图中
 	// marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
 }  
-   
 function loadScript() {  
   var script = document.createElement("script");  
   script.src = "https://api.map.baidu.com/api?v=2.0&ak=8ad571f52ec70fc5939ba9c9bdb01408&callback=initialize";//此为v2.0版本的引用方式  
   document.body.appendChild(script);  
-}  
-   
-window.onload = loadScript;  
+}
+window.onload = loadScript;
+
 </script>
+
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2133105"></script>
 
 <p>我们的婚礼将于2017年6月4号中午在连云港举办，欢迎你的光临！</p>
 
 <p>地点：</p>
-<div id="map" style="width:100%;height:320px"></div>
+<div id="map"></div>
+<div id="uyan_frame"></div>
 
-
-</section>
-<section align="right">
-  <br/>
-  <span>
-    <a   class="pageNavInvalid"  >上一篇</a>
-    &nbsp;&nbsp;&nbsp;
-    <a   class="pageNavInvalid"  >下一篇</a>
-  </span>
-</section>
-
-        </article>
-      </div>
-
-      <footer>
-        <p><small>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank" title="许可协议">©</a> 2012 - 2017 <a href="/about/">channingchen</a>
-        </small></p>
-      </footer>
-
-    </div>
-  </body>
-</html>

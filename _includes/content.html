@@ -1,3 +1,9 @@
+<style type="text/css">
+	#map{
+		width:100%;
+		height:200px;
+	}
+</style>
 
 <script type="text/javascript">  
 function initialize() {  
@@ -9,12 +15,20 @@ function initialize() {
 	map.addOverlay(marker);               // 将标注添加到地图中
 	// marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
 }  
-   
 function loadScript() {  
   var script = document.createElement("script");  
   script.src = "https://api.map.baidu.com/api?v=2.0&ak=8ad571f52ec70fc5939ba9c9bdb01408&callback=initialize";//此为v2.0版本的引用方式  
   document.body.appendChild(script);  
-}  
-   
-window.onload = loadScript;  
-</script>  
+}
+window.onload = loadScript;
+
+</script>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2133105"></script>
+
+我们的婚礼将于2017年6月4号中午在连云港举办，欢迎你的光临！
+
+地点：
+<div id="map"></div>  
+<div id="uyan_frame"></div>
+
+                                
