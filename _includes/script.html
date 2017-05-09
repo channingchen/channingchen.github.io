@@ -1,5 +1,5 @@
-<script type="text/javascript" src="../media/js/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="../media/js/easySlider.js"></script>
+<script type="text/javascript" src="../media/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../media/js/jquery.colorbox-min.js"></script>
 
 <script type="text/javascript">  
 function getQueryString(name) { 
@@ -8,36 +8,28 @@ function getQueryString(name) {
 	if (r != null) return unescape(r[2]); return null; 
 } 
 
-function initialize() {  
-	var map = new BMap.Map('map');  
-	var point = new BMap.Point(119.176348,34.605934);
-	map.centerAndZoom(point, 25);               
-	map.enableScrollWheelZoom();   
-	var marker = new BMap.Marker(point);  // 创建标注
-	map.addOverlay(marker);               // 将标注添加到地图中
-	// marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
-
-	$("#helloguest").text(getQueryString("helloguest"));
-}  
-
 function loadScript() {  
   var script = document.createElement("script");  
   script.src = "https://api.map.baidu.com/api?v=2.0&ak=8ad571f52ec70fc5939ba9c9bdb01408&callback=initialize";//此为v2.0版本的引用方式  
   document.body.appendChild(script);  
 }
 
-$(function() {
-	$("#slider").easySlider( {
-		slideSpeed: 500,
-		paginationSpacing: "15px",
-		paginationDiameter: "12px",
-		paginationPositionFromBottom: "20px",
-		slidesClass: ".slides",
-		controlsClass: ".controls",
-		paginationClass: ".pagination"					
-	});
-});
-
 window.onload = loadScript;
 
+$(document).ready(function(){
+	$("#helloguest").text(getQueryString("helloguest"));
+
+	$(".group4").colorbox({rel:'group4', slideshow:true, width:"90%", height:"90%"});
+	$(".map").colorbox({
+		rel:'map', width:"90%", height:"90%",
+		onComplete:function(){
+			var map = new BMap.Map('cboxLoadedContent');  
+			var point = new BMap.Point(119.176348,34.605934);
+			map.centerAndZoom(point, 25);               
+			map.enableScrollWheelZoom();   
+			var marker = new BMap.Marker(point);  // 创建标注
+			map.addOverlay(marker); 
+		}
+	});
+});
 </script>

@@ -1,13 +1,14 @@
 #map{
         width:100%;
-        height:200px;
+        height:480px;
+		max-width: 640px;
 }
 
 /*--------------SLIDER----------------*/
 
 #slider {
-	width: 50%;
-	margin: 50px auto;
+	width: 100%;
+	max-width: 640px;
 }
 
 
