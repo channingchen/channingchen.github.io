@@ -5,4 +5,6 @@ categories: wedding
 tags: wedding
 ---
 
+{% include style.html %}
+{% include script.html %}
 {% include content.html %}
