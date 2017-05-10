@@ -41,6 +41,21 @@ html,body{
 	top: 50%;
 	position: relative;
 }
+#allpic{
+	position: relative;
+}
+#play-div{
+	position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}
+#top-frame, #bottom-frame{
+	position: absolute;
+}
+#top-frame{
+	background:transparent url(../../image/frame.png) no-repeat scroll -140px -20px; 
+}
 .hide{
 	display: none;
 }
