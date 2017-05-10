@@ -53,9 +53,9 @@ function loadMap(){
 $(document).ready(function(){
 	$("#helloguest").text(getQueryString("helloguest"));
 
-	$(".group4").colorbox({rel:'group4', slideshow:true, width:"90%", height:"90%"});
-	$(".map").colorbox({
-		rel:'map', width:"90%", height:"90%",
+	$(".pic").colorbox({rel:'pic', slideshow:true, width:"90%", height:"90%"});
+	$("#address").colorbox({
+		rel:'address', width:"90%", height:"90%",
 		onComplete: loadMap
 	});
 });

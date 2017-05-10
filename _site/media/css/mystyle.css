@@ -1,0 +1,46 @@
+html,body{
+	margin: 0;
+	height: 100%;
+}
+#all{
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+#name,#pic,#time,#address{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#main-content{
+	width: 100%;
+	height: 100%;
+	background-color: #F0DAAB;
+	max-width: 600px;
+	min-width: 450px;
+	min-height: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+#name{
+	font-size: 4em;
+	color: white;
+	text-align: center;
+}
+#time,#address{
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+}
+#address{
+	text-decoration: underline;
+	display: block;
+}
+#pic{
+	width: 100%;
+	max-width: 960px;
+	top: 50%;
+	position: relative;
+}
+.hide{
+	display: none;
+}

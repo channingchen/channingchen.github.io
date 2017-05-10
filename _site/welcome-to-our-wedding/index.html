@@ -60,22 +60,29 @@ function loadMap(){
 $(document).ready(function(){
 	$("#helloguest").text(getQueryString("helloguest"));
 
-	$(".group4").colorbox({rel:'group4', slideshow:true, width:"90%", height:"90%"});
-	$(".map").colorbox({
-		rel:'map', width:"90%", height:"90%",
+	$(".pic").colorbox({rel:'pic', slideshow:true, width:"90%", height:"90%"});
+	$("#address").colorbox({
+		rel:'address', width:"90%", height:"90%",
 		onComplete: loadMap
 	});
 });
 </script>
 
-<p><span id="helloguest"></span></p>
-
-<p>我们的婚礼将于2017年6月4号中午在连云港举办，欢迎你的光临！</p>
-
-<p><a class="map" href="javascript:void(0);">地点</a></p>
-
-<p><a class="group4" href="../image/1.jpg">aaa</a></p>
-<p><a class="group4" href="../image/2.jpg" style="display: none">bbb</a></p>
-<p><a class="group4" href="../image/3.jpg" style="display: none">ccc</a></p>
-<p><a class="group4" href="../image/4.jpg" style="display: none">ddd</a></p>
-
+<div id="main-content">
+	<div id="all">
+		<div id="name">
+			<span>成明</span>
+			<img id="flower" src="../image/flower.png" /><img />
+			<span>李亚会</span>
+		</div>
+		<img id="pic" class="pic" src="../image/1.jpg" href="../image/1.jpg" />
+		<img class="pic hide" href="../image/2.jpg" />
+		<img class="pic hide" href="../image/3.jpg" />
+		<div id="time">二零一七年·六月四日</div>
+		<div id="time">江苏·连云港</div>
+		<div id="address" class="address" href="javascript:void(0);">
+			<img id="marker" src="../image/marker.png" /><img />
+			<span>开元曼居酒店</span>
+		</div>
+	</div>
+</div>
