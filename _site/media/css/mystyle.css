@@ -17,18 +17,25 @@ html,body{
 	background-color: #F0DAAB;
 	max-width: 600px;
 	min-width: 300px;
-	min-height: 700px;
+	min-height: 780px;
 	margin: 0 auto;
 	position: relative;
+}
+.textdiv{
+	color: white;
+	font-size: 1.2em;
+}
+#commonText2{
+	margin-top: 10px;
+	text-align: right;
 }
 #name{
 	font-size: 3em;
 	color: white;
 	text-align: center;
 }
-#time,#address{
-	font-size: 1.5em;
-	color: white;
+#time,#city,#address{
+	font-size: 1.2em;
 	text-align: center;
 }
 #address{
