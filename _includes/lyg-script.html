@@ -50,14 +50,7 @@ function loadMap(){
 }
 
 $(document).ready(function(){
-	$("#helloguest").text(getQueryString("helloguest"));
-	var version = getQueryString("v");
-	if (version=='1'){
-		$("#commonText1").text("成光、徐宁玲之子成明的婚礼，将于：");
-	}
-
-	$(".pic").colorbox({rel:'pic', slideshow:true, width:"90%", height:"90%"});
-	$("#address").colorbox({
+	$("#airport").colorbox({
 		rel:'address', width:"90%", height:"90%",
 		onComplete: loadMap
 	});
