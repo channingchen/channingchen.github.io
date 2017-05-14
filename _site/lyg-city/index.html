@@ -23,7 +23,21 @@ function loadScript() {
 
 window.onload = loadScript;
 
-function loadMap(){
+function loadMapAirport(){
+	loadMap(118.886693, 34.575652);
+}
+
+function loadMapCrt(){
+	loadMap(117.309558, 34.273439);
+}
+function loadMapTrains(){
+	loadMap(119.347399, 34.723729);
+}
+function loadMapCityCenter(){
+	loadMap(119.19314, 34.603117,18);
+}
+
+function loadMap(lng,lat,zoom=15){
 	var map = new BMap.Map('cboxLoadedContent');  
 	var homePoint = new BMap.Point(lng,lat);
 	map.centerAndZoom(homePoint, zoom);               
@@ -56,44 +70,25 @@ function loadMap(){
 
 }
 
-var lng=119.176348;
-var lat=34.605934;
-var zoom = 15;
-
 $(document).ready(function(){
-	lng=118.886693;
-	lat=34.575652;
 	$("#airport").colorbox({
 		rel:'airport', width:"90%", height:"90%",
-		onComplete: loadMap
+		onComplete: loadMapAirport
 	});
 
-	lng=117.309558;
-	lat=34.273439;
 	$("#crt").colorbox({
 		rel:'crt', width:"90%", height:"90%",
-		onComplete: loadMap
+		onComplete: loadMapCrt
 	});
 
-	lng=119.347399;
-	lat=34.723729;
-	$("#train").colorbox({
-		rel:'train', width:"90%", height:"90%",
-		onComplete: loadMap
+	$("#trains").colorbox({
+		rel:'trains', width:"90%", height:"90%",
+		onComplete: loadMapTrains
 	});
 
-	lng=119.19314;
-	lat=34.603117;
 	$("#city-center").colorbox({
 		rel:'city-center', width:"90%", height:"90%",
-		onComplete: loadMap
-	});
-
-	lng=118.886693;
-	lat=34.575652;
-	$("#airport").colorbox({
-		rel:'airport', width:"90%", height:"90%",
-		onComplete: loadMap
+		onComplete: loadMapCityCenter
 	});
 });
 </script>
