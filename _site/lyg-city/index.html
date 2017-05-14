@@ -25,8 +25,8 @@ window.onload = loadScript;
 
 function loadMap(){
 	var map = new BMap.Map('cboxLoadedContent');  
-	var homePoint = new BMap.Point(119.176348,34.605934);
-	map.centerAndZoom(homePoint, 25);               
+	var homePoint = new BMap.Point(lng,lat);
+	map.centerAndZoom(homePoint, zoom);               
 	map.enableScrollWheelZoom(); 
 
 	var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_BOTTOM_LEFT});// 左上角，添加比例尺
@@ -56,7 +56,41 @@ function loadMap(){
 
 }
 
+var lng=119.176348;
+var lat=34.605934;
+var zoom = 15;
+
 $(document).ready(function(){
+	lng=118.886693;
+	lat=34.575652;
+	$("#airport").colorbox({
+		rel:'airport', width:"90%", height:"90%",
+		onComplete: loadMap
+	});
+
+	lng=117.309558;
+	lat=34.273439;
+	$("#crt").colorbox({
+		rel:'crt', width:"90%", height:"90%",
+		onComplete: loadMap
+	});
+
+	lng=119.347399;
+	lat=34.723729;
+	$("#train").colorbox({
+		rel:'train', width:"90%", height:"90%",
+		onComplete: loadMap
+	});
+
+	lng=119.19314;
+	lat=34.603117;
+	$("#city-center").colorbox({
+		rel:'city-center', width:"90%", height:"90%",
+		onComplete: loadMap
+	});
+
+	lng=118.886693;
+	lat=34.575652;
 	$("#airport").colorbox({
 		rel:'airport', width:"90%", height:"90%",
 		onComplete: loadMap
@@ -86,9 +120,9 @@ $(document).ready(function(){
 				<span>吃喝玩乐：</span>
 				<ul>
 					<li>市中心：<a id="city-center" class="city-center" href="javascript:void(0);">市民广场</a></li>
-					<li>陇海步行街、海州仿古街道：<a id="street" class="street" href="javascript:void(0);">位置</a>/<a target="_self" href="https://www.dianping.com/search/keyword/95/0_%E9%99%87%E6%B5%B7%E6%AD%A5%E8%A1%8C%E8%A1%97/o3">大众点评</a></li>
+					<li>陇海步行街、海州仿古街道：<a id="street" class="street" href="javascript:void(0);">位置</a>/<a target="_self" href="https://m.dianping.com/shoplist/95/search?from=m_search&amp;keyword=%E9%99%87%E6%B5%B7%E6%AD%A5%E8%A1%8C%E8%A1%97">这里的吃喝玩乐</a></li>
 					<li>推荐美食：<a target="_self" href="https://www.dianping.com/shop/22145274">海港酒店</a>，<a target="_self" href="https://www.dianping.com/shop/9367009">洪泽小鱼馆</a>，<a target="_self" href="https://www.dianping.com/shop/13906840">月亮弯生煎大王</a>，<a target="_self" href="https://www.dianping.com/search/keyword/95/0_%E7%89%9B%E6%9D%AF%E6%9D%AF">牛杯杯</a>，</li>
-					<li>景点（路途较远）：<a href="">连岛海滨浴场</a>（大沙湾+苏马湾，海水脏脏的），<a>东海水晶城</a>（坑外地人），<a>花果山</a>（悟空老家，江苏最高峰-600多米，╮(╯_╰)╭）</li>
+					<li>景点（路途较远）：<a target="_self" href="https://www.dianping.com/shop/9315266">连岛海滨浴场</a>（大沙湾+苏马湾），<a target="_self" href="https://www.dianping.com/shop/5379184">东海水晶城</a>，<a target="_self" href="https://www.dianping.com/shop/2424976">花果山</a>（悟空老家，江苏最高峰-600多米）</li>
 				</ul>
 			</p>
 		</div>

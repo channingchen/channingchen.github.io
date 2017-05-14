@@ -18,8 +18,8 @@ window.onload = loadScript;
 
 function loadMap(){
 	var map = new BMap.Map('cboxLoadedContent');  
-	var homePoint = new BMap.Point(119.176348,34.605934);
-	map.centerAndZoom(homePoint, 25);               
+	var homePoint = new BMap.Point(lng,lat);
+	map.centerAndZoom(homePoint, zoom);               
 	map.enableScrollWheelZoom(); 
 
 	var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_BOTTOM_LEFT});// 左上角，添加比例尺
@@ -49,7 +49,41 @@ function loadMap(){
 
 }
 
+var lng=119.176348;
+var lat=34.605934;
+var zoom = 15;
+
 $(document).ready(function(){
+	lng=118.886693;
+	lat=34.575652;
+	$("#airport").colorbox({
+		rel:'airport', width:"90%", height:"90%",
+		onComplete: loadMap
+	});
+
+	lng=117.309558;
+	lat=34.273439;
+	$("#crt").colorbox({
+		rel:'crt', width:"90%", height:"90%",
+		onComplete: loadMap
+	});
+
+	lng=119.347399;
+	lat=34.723729;
+	$("#train").colorbox({
+		rel:'train', width:"90%", height:"90%",
+		onComplete: loadMap
+	});
+
+	lng=119.19314;
+	lat=34.603117;
+	$("#city-center").colorbox({
+		rel:'city-center', width:"90%", height:"90%",
+		onComplete: loadMap
+	});
+
+	lng=118.886693;
+	lat=34.575652;
 	$("#airport").colorbox({
 		rel:'airport', width:"90%", height:"90%",
 		onComplete: loadMap
