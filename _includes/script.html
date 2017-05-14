@@ -1,52 +1,12 @@
 <script type="text/javascript" src="../media/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="../media/js/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="../media/js/common-func.js"></script>
 
 <script type="text/javascript">  
-function getQueryString(name) { 
-	var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
-	var r = window.location.search.substr(1).match(reg); 
-	if (r != null) return unescape(r[2]); return null; 
-} 
-
-function loadScript() {  
-  var script = document.createElement("script");  
-  script.src = "https://api.map.baidu.com/api?v=2.0&ak=8ad571f52ec70fc5939ba9c9bdb01408&callback=initialize";//此为v2.0版本的引用方式  
-  document.body.appendChild(script);  
-}
-
 window.onload = loadScript;
 
-function loadMap(){
-	var map = new BMap.Map('cboxLoadedContent');  
-	var homePoint = new BMap.Point(119.176348,34.605934);
-	map.centerAndZoom(homePoint, 25);               
-	map.enableScrollWheelZoom(); 
-
-	var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_BOTTOM_LEFT});// 左上角，添加比例尺
-	var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件  
-	map.addControl(top_left_control);        
-	map.addControl(top_left_navigation);  
-
-	var geolocationControl = new BMap.GeolocationControl();
-	geolocationControl.addEventListener("locationSuccess", function(e){
-		var points = new Array();
-		points[0] = e.point;
-		points[1] = homePoint;
-		var view = map.getViewport(points);
-		map.centerAndZoom(view.center, view.zoom);
-	});
-	geolocationControl.addEventListener("locationError",function(e){
-		alert('定位失败');
-	});
-	map.addControl(geolocationControl);
-
-	var stCtrl = new BMap.PanoramaControl(); //构造全景控件
-	stCtrl.setOffset(new BMap.Size(20, 20));
-	map.addControl(stCtrl);//添加全景控件
-
-	var marker = new BMap.Marker(homePoint);  // 创建标注
-	map.addOverlay(marker); 
-
+function loadMapHotel(){
+	loadMap(119.176292,34.605958,20);
 }
 
 $(document).ready(function(){
@@ -59,7 +19,7 @@ $(document).ready(function(){
 	$(".pic").colorbox({rel:'pic', slideshow:true, width:"90%", height:"90%"});
 	$("#address").colorbox({
 		rel:'address', width:"90%", height:"90%",
-		onComplete: loadMap
+		onComplete: loadMapHotel
 	});
 });
 </script>
