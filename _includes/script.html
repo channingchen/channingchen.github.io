@@ -1,10 +1,9 @@
 <script type="text/javascript" src="../media/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="../media/js/jquery.colorbox-min.js"></script>
 <script type="text/javascript" src="../media/js/common-func.js"></script>
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=8ad571f52ec70fc5939ba9c9bdb01408"></script>
 
 <script type="text/javascript">  
-window.onload = loadScript;
-
 function loadMapHotel(){
 	loadMap(119.176292,34.605958,20);
 }
@@ -14,6 +13,10 @@ $(document).ready(function(){
 	var version = getQueryString("v");
 	if (version=='1'){
 		$("#commonText1").text("成光、徐宁玲之子成明的婚礼，将于：");
+		$("#play-div").hide();
+		$("#time").text("二零一七年·六月四日");
+		$("#clock").show();
+		$("#location").text("江苏·连云港·新浦区");
 	}
 
 	$(".pic").colorbox({rel:'pic', slideshow:true, width:"90%", height:"90%"});
