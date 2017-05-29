@@ -87,9 +87,9 @@ function loadMap(lng,lat,zoom=15){
 	var busButton = new MyButton("公交","bus",10,10,homePoint);
 	var taxiButton = new MyButton("开车","taxi",10,60,homePoint);
 	var onFootButton = new MyButton("走路","foot",10,110,homePoint);
-	map.addControl(busButton);
-	map.addControl(taxiButton);
-	map.addControl(onFootButton);
+	// map.addControl(busButton);
+	// map.addControl(taxiButton);
+	// map.addControl(onFootButton);
 
 	var marker = new BMap.Marker(homePoint);  // 创建标注
 	map.addOverlay(marker); 
