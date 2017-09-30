@@ -1,0 +1,9 @@
+---
+layout: post
+title: "奇特的一生APP"
+date: 2017-09-27 01:00:00
+categories: 我的产品
+tags: 自我实现
+---
+## 产品创意与概念
+## 标准流程

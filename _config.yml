@@ -1,16 +1,35 @@
-#markdown: rdiscount
-permalink: /:title/
-url: http://github.thinkingbar.com
-#highlighter: pygments
-highlighter: rouge
-gems: [jekyll-paginate]
-paginate: 100
-paginate_path: "page:num"
-name: Channing Chen's Blog 
-description: Channing Chen's Blog
-author: channingchen
+# Site settings
+title: papa@melonfamily
 email: jslygcm@gmail.com
-duoshuo: channingchen
-weibo: 
-hub: 
-safe: false
+description: > # this means to ignore newlines until "baseurl:"
+  Here is papa's blog in melonfamily.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://papa.melonfamily.com" # the base hostname & protocol for your site
+
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+
+
+# Social account
+#twitter:  melongirl_SH
+# weibo:    ID
+github:   channingchen
+# codepen:  username
+# dribbble: username
+
+
+# Comment
+# disqus_shortname: discussion_shortname
+
+# Google Analytics
+# google_analytics: tracking_ID
+
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap
