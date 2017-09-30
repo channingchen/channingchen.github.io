@@ -4,10 +4,10 @@
     <title>papa@melonfamily</title>
     <description>Here is papa's blog in melonfamily.
 </description>
-    <link>http://papa.melonfamily.com/</link>
-    <atom:link href="http://papa.melonfamily.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Sep 2017 09:23:48 +0800</pubDate>
-    <lastBuildDate>Sat, 30 Sep 2017 09:23:48 +0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 30 Sep 2017 09:24:50 +0800</pubDate>
+    <lastBuildDate>Sat, 30 Sep 2017 09:24:50 +0800</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -40,8 +40,8 @@
 &lt;h2 id=&quot;section-2&quot;&gt;摘录&lt;/h2&gt;
 </description>
         <pubDate>Wed, 27 Sep 2017 11:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html</guid>
+        <link>http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html</guid>
         
         <category>vision</category>
         
@@ -80,8 +80,8 @@
 &lt;h2 id=&quot;section-2&quot;&gt;摘录&lt;/h2&gt;
 </description>
         <pubDate>Wed, 27 Sep 2017 10:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/poor-charlies-almanack.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/poor-charlies-almanack.html</guid>
+        <link>http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/poor-charlies-almanack.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/poor-charlies-almanack.html</guid>
         
         <category>vision</category>
         
@@ -120,8 +120,8 @@
 &lt;h2 id=&quot;section-2&quot;&gt;摘录&lt;/h2&gt;
 </description>
         <pubDate>Wed, 27 Sep 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/sapiens.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/sapiens.html</guid>
+        <link>http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/sapiens.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/sapiens.html</guid>
         
         <category>vision</category>
         
@@ -267,8 +267,8 @@
 &lt;/table&gt;
 </description>
         <pubDate>Wed, 27 Sep 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E8%AE%A1%E5%88%92/2017/09/27/cross-disciplinary-reading.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E8%AE%A1%E5%88%92/2017/09/27/cross-disciplinary-reading.html</guid>
+        <link>http://localhost:4000/%E8%AF%BB%E4%B9%A6%E8%AE%A1%E5%88%92/2017/09/27/cross-disciplinary-reading.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E8%AF%BB%E4%B9%A6%E8%AE%A1%E5%88%92/2017/09/27/cross-disciplinary-reading.html</guid>
         
         <category>misc</category>
         
@@ -283,8 +283,8 @@
 &lt;h2 id=&quot;section-1&quot;&gt;标准流程&lt;/h2&gt;
 </description>
         <pubDate>Wed, 27 Sep 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E6%88%91%E7%9A%84%E4%BA%A7%E5%93%81/2017/09/27/my-app.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%88%91%E7%9A%84%E4%BA%A7%E5%93%81/2017/09/27/my-app.html</guid>
+        <link>http://localhost:4000/%E6%88%91%E7%9A%84%E4%BA%A7%E5%93%81/2017/09/27/my-app.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%88%91%E7%9A%84%E4%BA%A7%E5%93%81/2017/09/27/my-app.html</guid>
         
         <category>自我实现</category>
         
@@ -318,8 +318,8 @@
 &lt;h2 id=&quot;section-20&quot;&gt;怪诞行为学&lt;/h2&gt;
 </description>
         <pubDate>Wed, 27 Sep 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/09/27/listen-to-a-book.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/09/27/listen-to-a-book.html</guid>
+        <link>http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/09/27/listen-to-a-book.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/09/27/listen-to-a-book.html</guid>
         
         <category>vision</category>
         
@@ -333,8 +333,8 @@
         <description>&lt;h2 id=&quot;github-blogjekyllfree-theme&quot;&gt;Github Blog+Jekyll+Free Theme&lt;/h2&gt;
 </description>
         <pubDate>Wed, 27 Sep 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E4%BA%92%E8%81%94%E7%BD%91/2017/09/27/blog.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E4%BA%92%E8%81%94%E7%BD%91/2017/09/27/blog.html</guid>
+        <link>http://localhost:4000/%E4%BA%92%E8%81%94%E7%BD%91/2017/09/27/blog.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E4%BA%92%E8%81%94%E7%BD%91/2017/09/27/blog.html</guid>
         
         <category>blog</category>
         
@@ -350,8 +350,8 @@
 &lt;h2 id=&quot;ip&quot;&gt;IP筛选&lt;/h2&gt;
 </description>
         <pubDate>Wed, 27 Sep 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E4%BA%92%E8%81%94%E7%BD%91/2017/09/27/about-gfw.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E4%BA%92%E8%81%94%E7%BD%91/2017/09/27/about-gfw.html</guid>
+        <link>http://localhost:4000/%E4%BA%92%E8%81%94%E7%BD%91/2017/09/27/about-gfw.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E4%BA%92%E8%81%94%E7%BD%91/2017/09/27/about-gfw.html</guid>
         
         <category>GFW</category>
         
@@ -378,8 +378,8 @@
 &lt;h2 id=&quot;section-2&quot;&gt;第三次聊天，个体、环境和自我实现&lt;/h2&gt;
 </description>
         <pubDate>Wed, 27 Sep 2017 08:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/09/27/init.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/09/27/init.html</guid>
+        <link>http://localhost:4000/%E6%9D%82%E8%AE%B0/2017/09/27/init.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%9D%82%E8%AE%B0/2017/09/27/init.html</guid>
         
         <category>misc</category>
         
