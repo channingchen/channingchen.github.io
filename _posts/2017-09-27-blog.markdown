@@ -2,7 +2,7 @@
 layout: post
 title: "博客记"
 date: 2017-09-27 01:00:00
-categories: 互联网
+categories: 基建
 tags: blog
 ---
 ## Github Blog+Jekyll+Free Theme
