@@ -5,6 +5,7 @@ date: 2017-09-27 01:00:00
 categories: 基建
 tags: GFW
 ---
+![](/assets/img/gfw.jpg)
 ## NordVPN
 ## OpenWRT&OpenVPN
 ## IP筛选

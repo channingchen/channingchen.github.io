@@ -5,6 +5,7 @@ date: 2017-09-27 01:00:00
 categories: 读书计划
 tags: misc
 ---
+![](/assets/img/cross-discipinary.jpg)
 ## Why cross-disciplinary? 
 >To the man with a hammer, the world looks like a nail. 
 

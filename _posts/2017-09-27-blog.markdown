@@ -5,4 +5,12 @@ date: 2017-09-27 01:00:00
 categories: 基建
 tags: blog
 ---
-## Github Blog+Jekyll+Free Theme
+![](/assets/img/blog.jpg)
+## GoDaddy
+买了一个5年期的域名：melonfamily.com，准备作为自己博客的长期地址。
+## Github Blog
+https://pages.github.com/ ，使用github提供的免费page页面，并做一个CNAME的DNS解析，使melonfamily.com指向自己的博客地址。
+## Jekyll
+http://jekyll.com.cn/ ，使用jekyll可以轻易的用markdown撰写文章，同时，使用了一个看起来很不错的[主题](https://github.com/P233/P233.github.io)。
+
+**这次开博客，希望能一直坚持下去，仅仅写给自己看，😁。**

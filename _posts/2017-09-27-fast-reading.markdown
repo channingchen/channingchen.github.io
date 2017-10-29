@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "速读扩展(每天听本书)"
+title: "速读拓展：2017.09"
 date: 2017-09-27 01:00:00
 categories: 每天听本书
 tags: vision
 ---
+![](/assets/img/listenbook.jpeg)
 ## 清单革命
 ## 思想本质
 ## 你为什么而工作

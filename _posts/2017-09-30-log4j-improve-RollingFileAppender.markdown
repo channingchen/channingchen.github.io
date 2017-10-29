@@ -5,6 +5,7 @@ date: 2017-09-27 01:00:00
 categories: Programming
 tags: Java,log4j
 ---
+![](/assets/img/log4j.jpg)
 
 ## 发现问题
 A系统的rpc服务（使用HSF框架）调用方B反馈，最近总是会调用服务超时，发生的时间没有规律，每天大概几百次左右，所以找到A系统的负责人，也就是我，查找问题。
