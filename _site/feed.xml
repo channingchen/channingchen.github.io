@@ -6,8 +6,8 @@
 </description>
     <link>http://papa.melonfamily.com/</link>
     <atom:link href="http://papa.melonfamily.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Nov 2017 11:19:23 +0800</pubDate>
-    <lastBuildDate>Mon, 13 Nov 2017 11:19:23 +0800</lastBuildDate>
+    <pubDate>Tue, 14 Nov 2017 10:04:32 +0800</pubDate>
+    <lastBuildDate>Tue, 14 Nov 2017 10:04:32 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -292,6 +292,90 @@ a,b,c=1,2,&quot;name&quot;
 
 &lt;h3 id=&quot;4-条件反射相关的研究&quot;&gt;4. 条件反射相关的研究&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/fastreading/p40-4.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;经典条件反射是先天本能和后天环境的连结&quot;&gt;经典条件反射：是先天本能和后天环境的连结&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：先天本能和外部环境又和关系？&lt;/li&gt;
+  &lt;li&gt;实验：”狗听见摇铃流口水“
+    &lt;ol&gt;
+      &lt;li&gt;给狗喂食之前重复采用某种有信号的方式，之后即便把食物撤掉，狗在得到这个信号后，依然会流口水；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：经典条件反射是生物本能和外部环境刺激的连结。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;操作性条件反射会带来行为方式的改变&quot;&gt;操作性条件反射：会带来行为方式的改变&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：自主行为和外部环境有何关系？&lt;/li&gt;
+  &lt;li&gt;实验：”斯金纳箱“
+    &lt;ol&gt;
+      &lt;li&gt;箱子里装有开关，按下开关会有食物出现；&lt;/li&gt;
+      &lt;li&gt;小白鼠、鸽子放进箱子后，都能通过学习掌握获取食物的心技巧；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：食物是用来强化触发开关这种行为的后果，动物把自己的行为和这种强化建立关联，主动改变自己的行为模式。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;条件反射的消退&quot;&gt;条件反射的消退&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：条件反射为何消退&lt;/li&gt;
+  &lt;li&gt;实验：如何保持条件反射不消退的实验（强化方式）
+    &lt;ol&gt;
+      &lt;li&gt;连续性强化：学习初期&lt;/li&gt;
+      &lt;li&gt;间歇性强化：后期维护&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：长时间接触不到和之前同样的条件刺激，之前所建立的关联就会慢慢减弱恢复到自然状态。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;5-恐惧迷信模仿等情绪和行为来源&quot;&gt;5. 恐惧、迷信、模仿等情绪和行为来源&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/fastreading/p40-5.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;情绪可以由后天条件反射产生&quot;&gt;情绪：可以由后天条件反射产生&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：情绪的来源&lt;/li&gt;
+  &lt;li&gt;实验：“行为主义”的情绪建立实验
+    &lt;ol&gt;
+      &lt;li&gt;孩子本身对带毛的东西都比较有兴趣；&lt;/li&gt;
+      &lt;li&gt;在孩子试图接触小白鼠时，用其他东西突然发出巨大声响；&lt;/li&gt;
+      &lt;li&gt;经过一周，孩子开始对小白鼠产生极度的恐惧；&lt;/li&gt;
+      &lt;li&gt;恐惧还延伸到了所有的白色毛状物体&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：情绪可以由后天的条件反射产生。华生、斯金纳等人代表的“行为主义”学派，主张心理学的研究要以能够“被观察”和“直接测量”的行为做基础，反对研究看不见摸不着的意识，是现代心理学的重要流派，对心理学的发展有纠偏作用。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;迷信行为是环境强化的产物&quot;&gt;迷信行为：是环境“强化”的产物&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：迷信行为的来源&lt;/li&gt;
+  &lt;li&gt;实验：升级版的斯金纳箱
+    &lt;ol&gt;
+      &lt;li&gt;八个鸽子被放入箱子，各自做不同动作，突然有事物出现；&lt;/li&gt;
+      &lt;li&gt;它们随后会把自己的偶然动作和食物出现建立关联；&lt;/li&gt;
+      &lt;li&gt;随着食物出现的次数增多，鸽子产生了迷信行为；&lt;/li&gt;
+      &lt;li&gt;在食物停止供应后，鸽子的行为重复了接近10000次才做到迷信消退；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;实验2：打字机硬币实验
+    &lt;ol&gt;
+      &lt;li&gt;4个按键，只有3号键会出硬币，但会有延时；&lt;/li&gt;
+      &lt;li&gt;实验中每个被测试人，都相信自己选择了一套”正确“的按键组合方法；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：人类早期的集体行为会让个人偶然产生的迷信在社会文化中得到强化，并经过一代代的文化传承，强化成整个社会的信念（例如数字迷信、筷子不能竖着插在碗里等）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;模仿和观察潜移默化的塑造他人的品格&quot;&gt;模仿和观察：潜移默化的塑造他人的品格&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：品格的形成&lt;/li&gt;
+  &lt;li&gt;实验：”芭比娃娃实验“
+    &lt;ol&gt;
+      &lt;li&gt;由大人带领孩子分组玩拼图游戏；&lt;/li&gt;
+      &lt;li&gt;但其中一组突然开始暴力”击打“芭比娃娃，还伴随攻击性语言；&lt;/li&gt;
+      &lt;li&gt;之后孩子们被分别带入不同房间被观察行为；&lt;/li&gt;
+      &lt;li&gt;或多或少出现了攻击行为，男孩的人数大约是女孩的3倍；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：人会通过观察和模仿改变行为方式，这种学习主要发生在于他人的互动中，并最终改变人的行为方式。这个实验带来了巨大的社会反响，促成了美国出台电影分级制度，避免潜移默化的影响青少年。&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 &lt;h2 id=&quot;基业长青&quot;&gt;《基业长青》&lt;/h2&gt;
