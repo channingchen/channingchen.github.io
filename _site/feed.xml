@@ -6,9 +6,49 @@
 </description>
     <link>http://papa.melonfamily.com/</link>
     <atom:link href="http://papa.melonfamily.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Nov 2017 10:04:32 +0800</pubDate>
-    <lastBuildDate>Tue, 14 Nov 2017 10:04:32 +0800</lastBuildDate>
+    <pubDate>Wed, 15 Nov 2017 09:57:05 +0800</pubDate>
+    <lastBuildDate>Wed, 15 Nov 2017 09:57:05 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>面试基础知识题</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/java.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;java基础知识&quot;&gt;Java基础知识&lt;/h1&gt;
+&lt;h2 id=&quot;基本概念&quot;&gt;基本概念&lt;/h2&gt;
+&lt;h2 id=&quot;面向对象&quot;&gt;面向对象&lt;/h2&gt;
+&lt;h2 id=&quot;关键字&quot;&gt;关键字&lt;/h2&gt;
+&lt;h2 id=&quot;字符串与数组&quot;&gt;字符串与数组&lt;/h2&gt;
+&lt;h2 id=&quot;输入输出流&quot;&gt;输入输出流&lt;/h2&gt;
+&lt;h2 id=&quot;容器&quot;&gt;容器&lt;/h2&gt;
+&lt;h2 id=&quot;多线程&quot;&gt;多线程&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;java-web&quot;&gt;Java Web&lt;/h1&gt;
+&lt;h2 id=&quot;框架原理&quot;&gt;框架原理&lt;/h2&gt;
+&lt;h2 id=&quot;spring-mvc&quot;&gt;Spring MVC&lt;/h2&gt;
+&lt;h2 id=&quot;spring-boot&quot;&gt;Spring Boot&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;数据库&quot;&gt;数据库&lt;/h1&gt;
+&lt;h2 id=&quot;定义&quot;&gt;定义&lt;/h2&gt;
+&lt;h2 id=&quot;sql&quot;&gt;SQL&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;设计模式&quot;&gt;设计模式&lt;/h1&gt;
+&lt;h2 id=&quot;单例&quot;&gt;单例&lt;/h2&gt;
+&lt;h2 id=&quot;工厂&quot;&gt;工厂&lt;/h2&gt;
+&lt;h2 id=&quot;适配器&quot;&gt;适配器&lt;/h2&gt;
+&lt;h2 id=&quot;观察者&quot;&gt;观察者&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;数据结构与算法&quot;&gt;数据结构与算法&lt;/h1&gt;
+</description>
+        <pubDate>Mon, 13 Nov 2017 09:00:00 +0800</pubDate>
+        <link>http://papa.melonfamily.com/programming/2017/11/13/java-interview.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/11/13/java-interview.html</guid>
+        
+        <category>Java,ABC</category>
+        
+        
+        <category>Programming</category>
+        
+      </item>
     
       <item>
         <title>python ABC</title>
@@ -277,7 +317,7 @@ a,b,c=1,2,&quot;name&quot;
   &lt;li&gt;问题：做梦到底是心理行动还是生理行动？
     &lt;ol&gt;
       &lt;li&gt;弗洛伊德一直认为梦是人的潜意识表达；&lt;/li&gt;
-      &lt;li&gt;哈弗医学院：“激活——整合”理论，激活是指大脑中控制运动和感觉的部分，在入睡后依然活跃，位于脑干会产生微弱生物电。这些生物电被传导到大脑中负责意识和记忆的部分，就被整合成为有条理的叙述方式，就是做梦&lt;/li&gt;
+      &lt;li&gt;哈佛医学院：“激活——整合”理论，激活是指大脑中控制运动和感觉的部分，在入睡后依然活跃，位于脑干会产生微弱生物电。这些生物电被传导到大脑中负责意识和记忆的部分，就被整合成为有条理的叙述方式，就是做梦&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;实验：
@@ -376,6 +416,86 @@ a,b,c=1,2,&quot;name&quot;
   &lt;/li&gt;
   &lt;li&gt;结论：人会通过观察和模仿改变行为方式，这种学习主要发生在于他人的互动中，并最终改变人的行为方式。这个实验带来了巨大的社会反响，促成了美国出台电影分级制度，避免潜移默化的影响青少年。&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3 id=&quot;6-期望信念对行为的作用智力概念和本质&quot;&gt;6. 期望信念对行为的作用，智力概念和本质&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/fastreading/p40-6.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;期望和信念可以改变一个人的表现&quot;&gt;期望和信念，可以改变一个人的表现&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：期望和信念对人的行为是否有作用？&lt;/li&gt;
+  &lt;li&gt;实验：虚拟的“哈佛应变能力测试”下学生的表现
+    &lt;ol&gt;
+      &lt;li&gt;随机挑选学生，并进行所谓的“哈佛应变能力测试”&lt;/li&gt;
+      &lt;li&gt;随机挑选一部分学生，说他们是成绩最好的，并告诉老师，这部分有发展潜力&lt;/li&gt;
+      &lt;li&gt;整个学年结束后，观察这部分学生表现&lt;/li&gt;
+      &lt;li&gt;学生发生了积极的变化&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：“皮格马利翁”效应，期望和信念会给人后来的行为带来影响。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;智力概念&quot;&gt;智力概念&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：智商测试科学么？&lt;/li&gt;
+  &lt;li&gt;背景：单纯的智商测试不科学，不能评价一个人的全面表现，传统智商测试中，可能还有大量的种族偏见和文化偏见。同时，智商本身的含义也包含了文化概念，在不同文化环境中有不同的含义。&lt;/li&gt;
+  &lt;li&gt;实验：
+    &lt;ol&gt;
+      &lt;li&gt;黑人孩子和白人孩子对比研究；&lt;/li&gt;
+      &lt;li&gt;研究包括收集其父母教育情况、家庭收入；&lt;/li&gt;
+      &lt;li&gt;在孩子长大后进入青春期时，再次对他们测试；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：尽管作为个体素质有差别，但作为整体，只要接受的教育、所处的文化环境相似，智商差别不大。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;智力是一种多维度能力&quot;&gt;智力是一种多维度能力&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;多元智力论把智力划分3个维度：分析智力、创造性智力和实践智力；&lt;/li&gt;
+  &lt;li&gt;分析性智力：我们最熟悉的部分，包含考试成绩、逻辑推理等；&lt;/li&gt;
+  &lt;li&gt;创造性智力：挖掘新想法、理解各种抽象事物见的关系；&lt;/li&gt;
+  &lt;li&gt;实践智力：理论转化为时间的能力；
+结论：多元智力证明了人们普遍持有的观念——一个人的聪明可以表现在不同方面。教育界依据多元智力理论，重新设计课程，培养全面人格，让智力更健康的发展。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;7-记忆&quot;&gt;7. 记忆&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/fastreading/p40-7.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;记忆的具体发生过程从编码存储到提取的完整系统&quot;&gt;记忆的具体发生过程：从编码、存储到提取的完整系统&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;外界刺激-&amp;gt;同步的编码-&amp;gt;存储为短期记忆-&amp;gt;主动记忆-&amp;gt;长期记忆；&lt;/li&gt;
+  &lt;li&gt;长期记忆存在一定的生理基础（例如癫痫病人接受大脑手术，术后丧失增加长期记忆的能力）；&lt;/li&gt;
+  &lt;li&gt;记忆的提取不一定是刻意行为，但很多情况下，如果有“意识”参与，会有助于更加顺利的提取记忆；&lt;/li&gt;
+  &lt;li&gt;大脑存储信息时，除了信息本身，还会留下一些索引，掌握这些索引有助于提高记忆力；&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;干扰记忆的外部因素&quot;&gt;干扰记忆的外部因素&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：记忆是否会被干扰&lt;/li&gt;
+  &lt;li&gt;实验：
+    &lt;ol&gt;
+      &lt;li&gt;短片：白色赛车在乡间道路行驶，最终发生交通事故；&lt;/li&gt;
+      &lt;li&gt;结束后学生被分为两组回答问题；&lt;/li&gt;
+      &lt;li&gt;A组：白色赛车在乡间道路行驶，经过 &lt;strong&gt;谷仓&lt;/strong&gt; 的时速是多少（谷仓并不存在）？&lt;/li&gt;
+      &lt;li&gt;B组：白色赛车在乡间道路行驶，时速是多少？&lt;/li&gt;
+      &lt;li&gt;一周后，这群被测试者被召回，问第二轮问题，视频里是否出现过 &lt;strong&gt;谷仓&lt;/strong&gt; ？&lt;/li&gt;
+      &lt;li&gt;A组大部分人选择是，B组大部分人选择不是；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：记忆是不稳定的，容易受到外部因素干扰，干扰影响了记忆的重构。这个几轮促使了司法部门颁布方针，指导在收集目击证人证词时的规范和必要的限制。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;认知地图是行为的导航&quot;&gt;认知地图，是行为的导航&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：行为和记忆是否有关，记忆在思维里如何呈现？&lt;/li&gt;
+  &lt;li&gt;实验：
+    &lt;ol&gt;
+      &lt;li&gt;迷宫：入口到出口有多条道路，出口放食物，入口放小白鼠；&lt;/li&gt;
+      &lt;li&gt;完全没障碍时，经过几天的探索，小白鼠很快找到了最短到达食物的路；&lt;/li&gt;
+      &lt;li&gt;之后无论怎么设置障碍，小白鼠总能很快找到距离最近的路；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：迷宫的样子已经在小白鼠的头脑中形成了地图，之后的搜寻并不是完全依赖条件反射，这是一种“认知-行为主义“，是对之前”行为主义“的一个挑战。证明了行为并不是单纯的条件反射，而是带有主观能动性的学习，先形成认知地图，再由地图指导行动。认知地图不仅限于记忆，还包括对抽象事物的认知，例如现实中的地图导航。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;记忆对行为产生的各种影响&quot;&gt;记忆对行为产生的各种影响&lt;/h4&gt;
 
 &lt;hr /&gt;
 &lt;h2 id=&quot;基业长青&quot;&gt;《基业长青》&lt;/h2&gt;
@@ -798,37 +918,6 @@ a,b,c=1,2,&quot;name&quot;
         
         
         <category>读书笔记</category>
-        
-      </item>
-    
-      <item>
-        <title>花一份时间，做几份事情——论聪明的事半功倍</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/domorewithless.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;吴军的2016年总结&quot;&gt;吴军的2016年总结&lt;/h2&gt;
-&lt;p&gt;在得到上订阅了吴军的专栏，每天听一些他对各种事情的看法、以及对人生的一些见识，基本上每一篇文章都能对我或多或少有一些启发。前天洗澡的时候，恰好听到他对于自己的2016总结，虽然他仅仅是一条一条列出来，但是我却从字里行间得到了他没说的一个启发。他2016大概的成绩是这些：&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;作为投资人，占据了他整体30%～40%的时间（日常主业）；&lt;/li&gt;
-  &lt;li&gt;在商学院和培训班讲课100个学时，&lt;strong&gt;&lt;em&gt;同时&lt;/em&gt;&lt;/strong&gt;讲课内容整理成了两本书《硅谷之谜》&amp;amp;《智能时代》；&lt;/li&gt;
-  &lt;li&gt;写成了《文明之光》第四册；&lt;/li&gt;
-  &lt;li&gt;在得到APP上尝试做了一年专栏，&lt;strong&gt;&lt;em&gt;同时&lt;/em&gt;&lt;/strong&gt;将专栏内容整理成了《见识》这本书；&lt;/li&gt;
-  &lt;li&gt;听了两门公开课，一门生物学，一门法律，&lt;strong&gt;&lt;em&gt;除了&lt;/em&gt;&lt;/strong&gt;兴趣&lt;strong&gt;&lt;em&gt;还有&lt;/em&gt;&lt;/strong&gt;就是为了写书；&lt;/li&gt;
-  &lt;li&gt;读了大约20本书，其中一小半&lt;strong&gt;&lt;em&gt;同时&lt;/em&gt;&lt;/strong&gt;是为了给出版社写序；&lt;/li&gt;
-  &lt;li&gt;摄影水平得到提高，通过看书学习和练习，同时参加的摄影课程分享到了得到APP上；&lt;/li&gt;
-  &lt;li&gt;公益事业，还有帮助朋友开公司；&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;他在列举2016的重点成绩时，最吸引我的却是上述被我加粗的地方————这才是真正的事半功倍。他可以将自己做的事情，在多个方面得到成果，也或许，他是先观察了可能要做的所有事情，然后仅仅挑选那些最有价值的（单个领域价值*领域数目）去做。我觉得这点非常棒，&lt;strong&gt;花一份时间，得到多份的收益&lt;/strong&gt;，这才是使用时间这种最宝贵的资源的正道啊。&lt;/p&gt;
-&lt;h2 id=&quot;生活中的举例&quot;&gt;生活中的举例&lt;/h2&gt;
-&lt;p&gt;要问我自己的生活中，有没有这样的例子，其实也是有的。比如我最近的跨学科学习，本质上也是期望有一种事半功倍的效果。因为多学科会让你对这个世界运行的基础规律有更深入的了解，对基础的、通用的东西了解更多了之后，就能服务于其上搭建的个异性的系统，这就是一种事半功倍的学习。短期来看，越是基础的东西，越不太可能带来显而易见的收益，但是长期来看，这是一份非常划算的投资。&lt;/p&gt;
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-&lt;p&gt;总结下来，在订立目标做事情的时候，要着重考虑可积累、可通用的、能够带来多份效益的事情。寻找、判定这些事情花费的时间是值得的，因为只有这样，才能更好的利用你宝贵的时间。反观，如果你做的事情所投入的“单份时间“仅能带来“单份价值”，那么就会很不划算。&lt;/p&gt;
-</description>
-        <pubDate>Wed, 27 Sep 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/09/27/do-more-with-less.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/09/27/do-more-with-less.html</guid>
-        
-        
-        <category>杂记</category>
         
       </item>
     
