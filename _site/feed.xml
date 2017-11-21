@@ -4,14 +4,39 @@
     <title>papa@melonfamily</title>
     <description>Here is papa's blog in melonfamily.
 </description>
-    <link>http://papa.melonfamily.com/</link>
-    <atom:link href="http://papa.melonfamily.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Nov 2017 17:07:41 +0800</pubDate>
-    <lastBuildDate>Sun, 19 Nov 2017 17:07:41 +0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 21 Nov 2017 09:50:23 +0800</pubDate>
+    <lastBuildDate>Tue, 21 Nov 2017 09:50:23 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
-        <title>面试基础知识题</title>
+        <title>Work &amp; Flow</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/workflow.jpg&quot; alt=&quot;&quot; /&gt;
+周末晚上在学习python，一边看教程一边做笔记，但总感觉效率不高，而且也不怎么专心。看到字符串那边函数的时候，感慨了下，为啥教程里面列出来这么多函数，转而在一想，这个根本没必要去记忆，大概过一遍就好了，到用的时候肯定还会去搜索。想到这里的时候，就去google一下，找到了dash，这才想起来，我原来也装过这个软件。
+又把dash下载了下来，然后一番配置，之后又被吸引去了alfred workflow，发现了好多提高生产力的小玩意，其中一些能真正命中我每天的生活学习。&lt;/p&gt;
+
+&lt;p&gt;这个时代变化那么快，指南针要比地图重要的多得多，学习python也是一样，其他任何事情也是一样。学会学习的方法，远远比学会一样东西重要很多，这个道理也不是今天才第一次明白，但每次理解都会莫名的加深一些。在生活里的每一件事情也都是这样：上班就好好上班，在每天工作的时间里完成你该完成的任务；下班就好好学习、拓展视野，别再想着要把工作中的事情带回家来做；周末要好好休息、锻炼身体，总结一周里面的得失，为下一周做准备；and so on…&lt;/p&gt;
+
+&lt;p&gt;这么一说，真的觉得道理是很简单的，但要是想做好，却是很难。很多人会在该拓展视野、学习的时候加班；在该好好休息、锻炼身体的时候大吃大喝；再该好好工作、尽职尽责的时候疏忽懈怠。这就是我们所谓的“道理都懂，但依然过不好这一生”的体现。这个世界那么那么大，机会那么那么多，人的一生，只要抓住那么一个两个，就足以衣食无忧、快乐满足，但大家总习惯向后看——“如果我当时怎样怎样，现在就不会这样，肯定会怎样怎样”；但却很少有人会看未来——”我猜测未来会怎样怎样，所以我现在要这样这样“。&lt;/p&gt;
+
+&lt;p&gt;Life is same for everyone，but what really matters is the way you living. 心要真正的平静下来，一方面，因为急躁并无帮助，另一方面，因为只有真正的平静的心，才能做出正确的决定。机会每时每刻都有，这个时代欣欣向荣的发展着，机会只会越来越多，但真正能抓住机会的眼光和能力，很少有人有。“得到一样东西最好的方法，就是让自己配得上它”，钱是如此，生活中的幸福也是如此，“配得上”是原因，而非结果。&lt;/p&gt;
+
+&lt;p&gt;每天都反思下自己的一天吧，看是否聪明的度过了，是否又离自己的梦想，更近了一些？&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Nov 2017 09:00:00 +0800</pubDate>
+        <link>http://localhost:4000/programming/2017/11/18/work-and-flow.html</link>
+        <guid isPermaLink="true">http://localhost:4000/programming/2017/11/18/work-and-flow.html</guid>
+        
+        <category>misc,ABC</category>
+        
+        
+        <category>Programming</category>
+        
+      </item>
+    
+      <item>
+        <title>Java程序员的基础知识</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/img/java.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h1 id=&quot;java基础知识&quot;&gt;Java基础知识&lt;/h1&gt;
 &lt;h2 id=&quot;基本概念&quot;&gt;基本概念&lt;/h2&gt;
@@ -40,8 +65,8 @@
 &lt;h1 id=&quot;数据结构与算法&quot;&gt;数据结构与算法&lt;/h1&gt;
 </description>
         <pubDate>Mon, 13 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/programming/2017/11/13/java-interview.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/11/13/java-interview.html</guid>
+        <link>http://localhost:4000/programming/2017/11/13/java-interview.html</link>
+        <guid isPermaLink="true">http://localhost:4000/programming/2017/11/13/java-interview.html</guid>
         
         <category>Java,ABC</category>
         
@@ -488,6 +513,10 @@ a,b,c=1,2,&quot;name&quot;
       &lt;td&gt;随机生成下一个实数，它在[0,1)范围内。&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
+      &lt;td&gt;random.randint(x,y)&lt;/td&gt;
+      &lt;td&gt;#随机生一个整数int类型，可以指定这个整数的范围&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
       &lt;td&gt;seed([x])&lt;/td&gt;
       &lt;td&gt;改变随机数生成器的种子seed。如果你不了解其原理，你不必特别去设定seed，Python会帮你选择seed。&lt;/td&gt;
     &lt;/tr&gt;
@@ -496,15 +525,30 @@ a,b,c=1,2,&quot;name&quot;
       &lt;td&gt;将序列的所有元素随机排序&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
+      &lt;td&gt;random.sample(sequence,length)&lt;/td&gt;
+      &lt;td&gt;可以从指定的序列中，随机的截取指定长度的片断，不修改原序列。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
       &lt;td&gt;uniform(x, y)&lt;/td&gt;
       &lt;td&gt;随机生成下一个实数，它在[x,y]范围内。&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;h1 id=&quot;字符串&quot;&gt;字符串&lt;/h1&gt;
+
+&lt;h3 id=&quot;字符串格式化&quot;&gt;字符串格式化&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/usr/bin/python3&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;我叫 &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s 今年 &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;d 岁!&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'小明'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;三引号&quot;&gt;三引号&lt;/h3&gt;
+&lt;p&gt;python三引号允许一个字符串跨多行，字符串中可以包含换行符、制表符以及其他特殊字符，三引号让程序员从引号和特殊字符串的泥潭里面解脱出来，自始至终保持一小块字符串的格式是所谓的WYSIWYG（所见即所得）格式的。&lt;/p&gt;
 </description>
         <pubDate>Sat, 11 Nov 2017 08:22:18 +0800</pubDate>
-        <link>http://papa.melonfamily.com/programming/2017/11/11/python-abc.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/11/11/python-abc.html</guid>
+        <link>http://localhost:4000/programming/2017/11/11/python-abc.html</link>
+        <guid isPermaLink="true">http://localhost:4000/programming/2017/11/11/python-abc.html</guid>
         
         <category>Python,ABC</category>
         
@@ -543,8 +587,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;p&gt;之前换工作那会一直持续到现在，也在时不时的想自己到底想要什么，慢慢的有了自己一套说不出的思路。其中包括对以前三观、思维方式的纠正。投资的哲学和生活的道理很多都是想通的，不会生活，也就不会投资。而真正能够把生活过好、过出调理和水平的人，也能把这些道理用到投资上。其实这就是我想表达的，当你的思维、你的想法真正的提升了之后，不出意外的，你的收入才会匹配的提升上来，收入的提升是结果，并非原因。就像长期持有是结果，而非价值投资的成因一样，这点也不被大部分人所理解。&lt;/p&gt;
 </description>
         <pubDate>Wed, 08 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</guid>
+        <link>http://localhost:4000/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</guid>
         
         <category>misc</category>
         
@@ -961,24 +1005,19 @@ a,b,c=1,2,&quot;name&quot;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;过度的应激反应会影响身心健康&quot;&gt;过度的应激反应会影响身心健康&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;情绪由心理和生理产生，同时也会反过来对心理和生理造成影响，这种影响叫应激反应；
-    &lt;ul&gt;
-      &lt;li&gt;问题：应激反应对身心健康有影响&lt;/li&gt;
-      &lt;li&gt;实验：&lt;/li&gt;
-    &lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt;情绪由心理和生理产生，同时也会反过来对心理和生理造成影响，这种影响叫应激反应；&lt;/li&gt;
+  &lt;li&gt;问题：应激反应对身心健康有影响&lt;/li&gt;
+  &lt;li&gt;实验：
     &lt;ol&gt;
       &lt;li&gt;“生活变化事件人们需要作出努力调整”问卷表&lt;/li&gt;
       &lt;li&gt;以“结婚”为标准值，列出一系列生活中的事件，让人们填写需要努力到何种程度，才能适应；&lt;/li&gt;
       &lt;li&gt;测试后发现，变化越大、持续时间越长，患病的次数和几率就越高；&lt;/li&gt;
-      &lt;li&gt;推广测试后，发现结果和性别、教育程度、种族、年龄关系不大，结果都很相近；
-        &lt;ul&gt;
-          &lt;li&gt;结论：生活中经历的变化越大，持续时间越长，就会产生越强烈的应激反应，需要花更多的时间去适应，这部分结论让人们正视情绪和身心健康的关系，更好的面对疾病的治疗。&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;推广测试后，发现结果和性别、教育程度、种族、年龄关系不大，结果都很相近；&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ol&gt;
+  &lt;li&gt;结论：生活中经历的变化越大，持续时间越长，就会产生越强烈的应激反应，需要花更多的时间去适应，这部分结论让人们正视情绪和身心健康的关系，更好的面对疾病的治疗。&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h4 id=&quot;基本的情绪表达在世界范围具有通用性&quot;&gt;基本的情绪表达，在世界范围具有通用性&lt;/h4&gt;
 &lt;ul&gt;
@@ -993,13 +1032,148 @@ a,b,c=1,2,&quot;name&quot;
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&quot;11从古至今的人格划分理论&quot;&gt;11.从古至今的人格划分理论&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/fastreading/p40-11.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;多种气质构成人格&quot;&gt;多种气质构成人格&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;古希腊：人格是气质的集合，四种气质对人格归类——至少说明了人和人之间的性格和气质不同；&lt;/li&gt;
+  &lt;li&gt;20世纪晚期：五因素理论，开放性、责任感、外倾性、宜人性、亲和力。统计发现，每个人都有多种的气质，缺少一种人格就不完整。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;对命运的看法是人格的重要组成部分&quot;&gt;对命运的看法，是人格的重要组成部分&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：人格的内控型和外控型&lt;/li&gt;
+  &lt;li&gt;实验：
+    &lt;ol&gt;
+      &lt;li&gt;没有绝对对错的问题表格，让被测试人选择他们更为认同的观点；&lt;/li&gt;
+      &lt;li&gt;测试结果来看，可以把被测试人分为两组，一组内控，一组外控；&lt;/li&gt;
+      &lt;li&gt;后续观察发现，内控型人格更倾向于做有把握的事情，外控型更倾向于冒险；&lt;/li&gt;
+      &lt;li&gt;一个人也可能兼具内控和外控性格，但表现在不同方面；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：内控型坚信自己对命运负责，外控型则多采取听天由命的态度。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;对人格的理解和文化背景关联&quot;&gt;对人格的理解和文化背景关联&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：个人主义文化、集体主义文化&lt;/li&gt;
+  &lt;li&gt;实验：
+    &lt;ol&gt;
+      &lt;li&gt;“人主义文化、集体主义文化”是可以使用于各种社会形态的一个标准；&lt;/li&gt;
+      &lt;li&gt;所以针对这一标准，查看人格是否可以影射出其所处的社会文化；&lt;/li&gt;
+      &lt;li&gt;分别在美国、日本，结果是，测试可以从人格看出社会文化；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：把大的文化背景“非典型化”，让人们看到每种文化的优劣势，例如对于“孤独感”的观察中，就必须把文化差异考虑进来。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;12人格中的双性化ab型人格和时间观&quot;&gt;12.人格中的双性化、AB型人格和时间观&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/fastreading/p40-12.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;随着性解放运动更多心理学家提出了二维的性别观&quot;&gt;随着性解放运动，更多心理学家提出了二维的性别观&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：双性化是人格的常态&lt;/li&gt;
+  &lt;li&gt;实验：
+    &lt;ol&gt;
+      &lt;li&gt;列出了一串心理学专业的学生们认为有价值的性别特征，包含了男性特征、女性特征和中性特征；&lt;/li&gt;
+      &lt;li&gt;招募了一批非心理学学生，其中男女各半，根据社会认可度来为这些特征打分；&lt;/li&gt;
+      &lt;li&gt;之后选取前60名的性格特征，打乱后随机放在表格中，让随机的被测试者选择符合自己的特征；&lt;/li&gt;
+      &lt;li&gt;大量统计后发现，整个社会的性别人格分布中，双性化占有很大比例&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：实验对于人们更好的树立典范、完善整个社会的人格结构有重要意义。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;ab型人格急性子慢性子&quot;&gt;AB型人格（急性子、慢性子）&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：A型人格的行为模式可能和心脏病发病有关；&lt;/li&gt;
+  &lt;li&gt;实验：
+    &lt;ol&gt;
+      &lt;li&gt;发现来源：心理诊疗师家里的座椅皮套，前沿比其他部分磨损的快很多；&lt;/li&gt;
+      &lt;li&gt;由此猜测，是否可以设计一套可被观察的行为模式，之后区分人的人格；&lt;/li&gt;
+      &lt;li&gt;通过盲测，通过行为观察到符合A型人格的人，心脏病发病率是B型人格的8倍；&lt;/li&gt;
+      &lt;li&gt;结果可以用应激反应解释：A型人格面对外界变化-&amp;gt;生理容易兴奋-&amp;gt;长时间固话为行为模式-&amp;gt;心率和血压升高-&amp;gt;损害心血管造成心脏病；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：开创了新的研究角度，记录数据可以用来证实某些特殊行为会导致疾病，是”健康心理学“的基础。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;时间观人格的重要体现&quot;&gt;时间观，人格的重要体现&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;三种不同的时间观：过去、现在、未来，哪一种时间观占据主导，往往取决于不同的性格&lt;/li&gt;
+  &lt;li&gt;实验：
+    &lt;ol&gt;
+      &lt;li&gt;调查问卷，测试人们更倾向于哪种时间观&lt;/li&gt;
+      &lt;li&gt;未来时间观：责任感较强；&lt;/li&gt;
+      &lt;li&gt;现在时间观：追求新鲜和刺激、容易产生攻击性；&lt;/li&gt;
+      &lt;li&gt;过去时间观：自尊心较重，幸福感较强；&lt;/li&gt;
+      &lt;li&gt;时间观的形成和遗传因素有关，但更多的是教育、社会、文化传统。&lt;/li&gt;
+      &lt;li&gt;一个人的时间观也不是静态的，随着年龄增长，会变得越来越关注现在。&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;13精神病理学习得性无助&quot;&gt;13.精神病理学、习得性无助&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/fastreading/p40-13.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;标签化影响精神病的诊断和治疗&quot;&gt;标签化影响精神病的诊断和治疗&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：精神病的诊断标准是什么？&lt;/li&gt;
+  &lt;li&gt;实验：罗森汉行为实验
+    &lt;ol&gt;
+      &lt;li&gt;一共8位志愿者，假扮精神分裂入住精神病院；&lt;/li&gt;
+      &lt;li&gt;进入后，一切行为完全正常，但医生护士仍然认为他们是精神病患者；&lt;/li&gt;
+      &lt;li&gt;实验指出，医生和护士对精神院中的患者非常缺乏耐心；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：人们一旦被贴上标签，或因为所处的一个固定的环境，就可能被一直用同一种观点和态度对待。之后整个心理学界都在完善精神病诊断的标准。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;防御机制是缓解焦虑的重要手段&quot;&gt;防御机制，是缓解焦虑的重要手段&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;弗洛伊德提出了防御机制，将人格分为本我、自我和超我；
+    &lt;ol&gt;
+      &lt;li&gt;本我表明动物本性；&lt;/li&gt;
+      &lt;li&gt;自我趋利避害；&lt;/li&gt;
+      &lt;li&gt;超我则是道德、理想、良心的部分；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;防御机制即是人格的自我在面对本我和超我两方夹击时（往往会产生焦虑），采取的内部调节；&lt;/li&gt;
+  &lt;li&gt;防御机制中还有一种叫做升华，例如早期饥饿记忆会导致后期人格的努力工作，这种观点并未被广泛接受；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;习得性无助会导致恶性循环&quot;&gt;习得性无助会导致恶性循环&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：习得性无助&lt;/li&gt;
+  &lt;li&gt;实验：
+    &lt;ol&gt;
+      &lt;li&gt;类似斯金纳箱，中间用隔板分隔，一边存在轻微电击；&lt;/li&gt;
+      &lt;li&gt;将狗束缚后放入，它无法从一边跳到另外一边；&lt;/li&gt;
+      &lt;li&gt;经过几轮电击，狗索性放弃抵抗，之后，即便它已经有能力逃脱，也会放弃；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：习得性无助是由后天持续失败经历造成的，持续打击下会陷入恶性循环。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;拥挤和行为之间的关系&quot;&gt;拥挤和行为之间的关系&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：环境和行为之间的关系&lt;/li&gt;
+  &lt;li&gt;实验：
+    &lt;ol&gt;
+      &lt;li&gt;小白鼠放入拥挤环境，但不缺少食物和水；&lt;/li&gt;
+      &lt;li&gt;按照繁殖速度，应该出现5000只小白鼠，但实际只有150只存活下来；&lt;/li&gt;
+      &lt;li&gt;在拥挤情况中的小白鼠，出现了很多异常行为，有些极富攻击性，有些则某些生存本能都被抑制；&lt;/li&gt;
+      &lt;li&gt;同时，通过研究监狱环境和犯人的行为数据，也能支持这一观点；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：长期高密度环境会影响人的行为，这项研究成果可以运用与城市规划和社会治安管理。&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;hr /&gt;
 &lt;h2 id=&quot;基业长青&quot;&gt;《基业长青》&lt;/h2&gt;
 
 </description>
         <pubDate>Wed, 01 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</guid>
+        <link>http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</guid>
         
         <category>vision</category>
         
@@ -1218,8 +1392,8 @@ a,b,c=1,2,&quot;name&quot;
 
 </description>
         <pubDate>Fri, 27 Oct 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</guid>
+        <link>http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</guid>
         
         <category>vision</category>
         
@@ -1260,8 +1434,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;h2 id=&quot;摘录&quot;&gt;摘录&lt;/h2&gt;
 </description>
         <pubDate>Sat, 21 Oct 2017 10:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-wonderful-life.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-wonderful-life.html</guid>
+        <link>http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-wonderful-life.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-wonderful-life.html</guid>
         
         <category>vision</category>
         
@@ -1302,8 +1476,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;h2 id=&quot;摘录&quot;&gt;摘录&lt;/h2&gt;
 </description>
         <pubDate>Sat, 21 Oct 2017 10:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-brief-history-of-tomorrow.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-brief-history-of-tomorrow.html</guid>
+        <link>http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-brief-history-of-tomorrow.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-brief-history-of-tomorrow.html</guid>
         
         <category>vision</category>
         
@@ -1323,8 +1497,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;p&gt;从我这段时间的思考里，也是这段时间不断的思维上的拷问中，我慢慢的淡定了下来，选择没有所谓的对错，真正重要的是选择之后的道路，你是否有拼尽努力去完成。既然我已经留在了上海和媳妇团聚，生活上非常大的不确定因素就没有了，我应该像老板所说，带着那些精神去push我自己成长，从而证明我自己。&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Oct 2017 08:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/10/21/from-hangzhou-to-shanghai.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/10/21/from-hangzhou-to-shanghai.html</guid>
+        <link>http://localhost:4000/%E6%9D%82%E8%AE%B0/2017/10/21/from-hangzhou-to-shanghai.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%9D%82%E8%AE%B0/2017/10/21/from-hangzhou-to-shanghai.html</guid>
         
         <category>misc</category>
         
@@ -1365,50 +1539,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;h2 id=&quot;摘录&quot;&gt;摘录&lt;/h2&gt;
 </description>
         <pubDate>Wed, 27 Sep 2017 11:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html</guid>
-        
-        <category>vision</category>
-        
-        
-        <category>读书笔记</category>
-        
-      </item>
-    
-      <item>
-        <title>《穷查理宝典》</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/poorcharlie.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;书名&lt;/th&gt;
-      &lt;th&gt;作者&lt;/th&gt;
-      &lt;th&gt;字数&lt;/th&gt;
-      &lt;th&gt;开始时间&lt;/th&gt;
-      &lt;th&gt;完成时间&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;穷查理宝典&lt;/td&gt;
-      &lt;td&gt;查理·芒格&lt;/td&gt;
-      &lt;td&gt;12h&lt;/td&gt;
-      &lt;td&gt;2017-08-09&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;核心脑图&quot;&gt;核心&amp;amp;脑图&lt;/h2&gt;
-
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-
-&lt;h2 id=&quot;摘录&quot;&gt;摘录&lt;/h2&gt;
-</description>
-        <pubDate>Wed, 27 Sep 2017 10:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/poor-charlies-almanack.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/poor-charlies-almanack.html</guid>
+        <link>http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html</guid>
         
         <category>vision</category>
         

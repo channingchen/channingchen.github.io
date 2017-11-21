@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "面试基础知识题"
+title: "Java程序员的基础知识"
 date: 2017-11-13 01:00:00
 categories: Programming
 tags: Java,ABC
