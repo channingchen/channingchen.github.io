@@ -4,10 +4,10 @@
     <title>papa@melonfamily</title>
     <description>Here is papa's blog in melonfamily.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Nov 2017 09:50:23 +0800</pubDate>
-    <lastBuildDate>Tue, 21 Nov 2017 09:50:23 +0800</lastBuildDate>
+    <link>http://papa.melonfamily.com/</link>
+    <atom:link href="http://papa.melonfamily.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 22 Nov 2017 09:50:10 +0800</pubDate>
+    <lastBuildDate>Wed, 22 Nov 2017 09:50:10 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -25,8 +25,8 @@
 &lt;p&gt;每天都反思下自己的一天吧，看是否聪明的度过了，是否又离自己的梦想，更近了一些？&lt;/p&gt;
 </description>
         <pubDate>Sat, 18 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://localhost:4000/programming/2017/11/18/work-and-flow.html</link>
-        <guid isPermaLink="true">http://localhost:4000/programming/2017/11/18/work-and-flow.html</guid>
+        <link>http://papa.melonfamily.com/programming/2017/11/18/work-and-flow.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/11/18/work-and-flow.html</guid>
         
         <category>misc,ABC</category>
         
@@ -65,8 +65,8 @@
 &lt;h1 id=&quot;数据结构与算法&quot;&gt;数据结构与算法&lt;/h1&gt;
 </description>
         <pubDate>Mon, 13 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://localhost:4000/programming/2017/11/13/java-interview.html</link>
-        <guid isPermaLink="true">http://localhost:4000/programming/2017/11/13/java-interview.html</guid>
+        <link>http://papa.melonfamily.com/programming/2017/11/13/java-interview.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/11/13/java-interview.html</guid>
         
         <category>Java,ABC</category>
         
@@ -547,8 +547,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;p&gt;python三引号允许一个字符串跨多行，字符串中可以包含换行符、制表符以及其他特殊字符，三引号让程序员从引号和特殊字符串的泥潭里面解脱出来，自始至终保持一小块字符串的格式是所谓的WYSIWYG（所见即所得）格式的。&lt;/p&gt;
 </description>
         <pubDate>Sat, 11 Nov 2017 08:22:18 +0800</pubDate>
-        <link>http://localhost:4000/programming/2017/11/11/python-abc.html</link>
-        <guid isPermaLink="true">http://localhost:4000/programming/2017/11/11/python-abc.html</guid>
+        <link>http://papa.melonfamily.com/programming/2017/11/11/python-abc.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/11/11/python-abc.html</guid>
         
         <category>Python,ABC</category>
         
@@ -587,8 +587,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;p&gt;之前换工作那会一直持续到现在，也在时不时的想自己到底想要什么，慢慢的有了自己一套说不出的思路。其中包括对以前三观、思维方式的纠正。投资的哲学和生活的道理很多都是想通的，不会生活，也就不会投资。而真正能够把生活过好、过出调理和水平的人，也能把这些道理用到投资上。其实这就是我想表达的，当你的思维、你的想法真正的提升了之后，不出意外的，你的收入才会匹配的提升上来，收入的提升是结果，并非原因。就像长期持有是结果，而非价值投资的成因一样，这点也不被大部分人所理解。&lt;/p&gt;
 </description>
         <pubDate>Wed, 08 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://localhost:4000/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</guid>
+        <link>http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</guid>
         
         <category>misc</category>
         
@@ -1167,13 +1167,105 @@ a,b,c=1,2,&quot;name&quot;
   &lt;li&gt;结论：长期高密度环境会影响人的行为，这项研究成果可以运用与城市规划和社会治安管理。&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&quot;14心理治疗和探测人的心理状态&quot;&gt;14.心理治疗和探测人的心理状态&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/fastreading/p40-14.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;心理治疗是有效的么&quot;&gt;心理治疗是有效的么？&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：心理治疗是有效的么？&lt;/li&gt;
+  &lt;li&gt;实验：
+    &lt;ol&gt;
+      &lt;li&gt;对截止1977年的所有有关心理治疗的文献进行归类整理；&lt;/li&gt;
+      &lt;li&gt;对这些文献做“元分析”——即对以往研究成果的研究；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：
+    &lt;ol&gt;
+      &lt;li&gt;最终统计结果显示，在833种不同的治疗方案中，只有大约12%的治疗产生过负面影响；&lt;/li&gt;
+      &lt;li&gt;研究结果对行业内部存在的偏差给予了纠正：同一种病症可以有多种解决方案，各个方案间没有高下之分，应当综合运用；&lt;/li&gt;
+      &lt;li&gt;研究结果也推动了心理治疗在社会大众的普及；&lt;/li&gt;
+      &lt;li&gt;研究结果也显示真正影响治疗效果的，是心理治疗师本人， 这一定程度上提高了整个行业的人员素质；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;恐惧症可以用系统脱敏法来治疗&quot;&gt;恐惧症可以用系统脱敏法来治疗&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;早期恐惧症的治疗方法多采用佛洛依德的精神分析法；&lt;/li&gt;
+  &lt;li&gt;系统脱敏法注重“渐进”治疗，让患者一步步接近恐惧的源头，并通过适当放松来缓解焦虑；&lt;/li&gt;
+  &lt;li&gt;统计材料显示，经过跟踪调查，系统脱敏法治愈后的患者没有复发的案例，实际证明是有效的。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;人的心理状态可以通过图形来检测墨迹测试&quot;&gt;人的心理状态可以通过图形来检测（墨迹测试）&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;墨迹测试的理论支持：人在观察没有规则的形状时，注意力分散处于非常放松的状态，深藏内心的想法就会浮现；&lt;/li&gt;
+  &lt;li&gt;对墨迹的解释，可以最大限度投射出一个人的潜意识；&lt;/li&gt;
+  &lt;li&gt;目前被作为一种心理治疗的重要诊断工具，能够对精神分裂、潜在抑郁倾向起到一定的提示作用；&lt;/li&gt;
+  &lt;li&gt;但测试本身容易受到被测对象的情绪影响，所以常在实践中作为辅助测试。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;15社会心理学人的行为与外部社会的关系&quot;&gt;15.社会心理学：人的行为与外部社会的关系&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/fastreading/p40-15.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;外部环境影响下人可能做出疯狂的举动&quot;&gt;外部环境影响下，人可能做出疯狂的举动&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：外部环境对人的行为有多大影响？&lt;/li&gt;
+  &lt;li&gt;实验：“斯坦福监狱实验”
+    &lt;ol&gt;
+      &lt;li&gt;将实验室改装为监狱，尽量逼真；&lt;/li&gt;
+      &lt;li&gt;招募一组看守、一组囚犯，对他们的待遇和真实监狱没有差别；&lt;/li&gt;
+      &lt;li&gt;事实证明，仅仅过去一天，所有人都适应了监狱环境，深入了角色：看守开始虐囚，囚犯消极绝望；&lt;/li&gt;
+      &lt;li&gt;原本计划2周的实验，在第六天就不得不中止，因为已经完全失控；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：深刻揭示了人性中的黑暗，推动人们更加关心环境、行为、犯罪三者关系；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;从众行为会导致误判&quot;&gt;从众行为，会导致误判&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：羊群的从众行为在人群中，是否也会发生？&lt;/li&gt;
+  &lt;li&gt;实验：
+    &lt;ol&gt;
+      &lt;li&gt;准备三个不同长短的线条，另外一个标准线条，要求选出三个中和标准一样长的线条；&lt;/li&gt;
+      &lt;li&gt;1个真是被测试者，7个实验助手假扮的被测试者；&lt;/li&gt;
+      &lt;li&gt;开始两轮选择都是正确的，最后一轮7个助手集体选错；&lt;/li&gt;
+      &lt;li&gt;被测试者大概率会从众，如果最后一轮助手多一个选正确，被测试者选对的概率也会增加；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：其他人的选择会对被测试人产生压力，但压力不是绝对的，随着人群的扩大，意见会产生分裂。只有中等数目的群落中，从众压力才会对人产生最大限度的影响。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;责任扩散导致袖手旁观&quot;&gt;责任扩散导致袖手旁观&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：围观人数和救助概率成反比？&lt;/li&gt;
+  &lt;li&gt;实验：
+    &lt;ol&gt;
+      &lt;li&gt;空房间和麦克风，被测试者被告知和另外不同数目的其他被测试者（实验助手假扮）讨论问题；&lt;/li&gt;
+      &lt;li&gt;突然耳机中传来求救声，一个讨论人员称自己疾病发作；&lt;/li&gt;
+      &lt;li&gt;被测试者施救或报告的概率，随着其他人数目的增多而下降；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：突发事件随着围观人数增多，提供帮助的责任感扩散被稀释、没有出手的内疚和自责也被稀释；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;无条件服从让群体丧失理智&quot;&gt;无条件服从让群体丧失理智&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;问题：服从权威会让人丧失理智&lt;/li&gt;
+  &lt;li&gt;实验：
+    &lt;ol&gt;
+      &lt;li&gt;假扮的电压装置，从30V到450V，被测试者会根据研究人员的命令控制这个点击装置；&lt;/li&gt;
+      &lt;li&gt;研究者假扮老师和学生，老师要求被测试者执行命令，点击学生；&lt;/li&gt;
+      &lt;li&gt;40名被测试者，有26人服从命令使用了450V的电压；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;结论：在特殊场景下，人会出现无条件服从倾向，最终丧失理智，在一些重大的群体性事件中，往往会导致灾难性的后果。&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;hr /&gt;
 &lt;h2 id=&quot;基业长青&quot;&gt;《基业长青》&lt;/h2&gt;
 
 </description>
         <pubDate>Wed, 01 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</guid>
+        <link>http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</guid>
         
         <category>vision</category>
         
@@ -1392,8 +1484,8 @@ a,b,c=1,2,&quot;name&quot;
 
 </description>
         <pubDate>Fri, 27 Oct 2017 09:00:00 +0800</pubDate>
-        <link>http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</guid>
+        <link>http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</guid>
         
         <category>vision</category>
         
@@ -1434,8 +1526,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;h2 id=&quot;摘录&quot;&gt;摘录&lt;/h2&gt;
 </description>
         <pubDate>Sat, 21 Oct 2017 10:00:00 +0800</pubDate>
-        <link>http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-wonderful-life.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-wonderful-life.html</guid>
+        <link>http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-wonderful-life.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-wonderful-life.html</guid>
         
         <category>vision</category>
         
@@ -1476,8 +1568,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;h2 id=&quot;摘录&quot;&gt;摘录&lt;/h2&gt;
 </description>
         <pubDate>Sat, 21 Oct 2017 10:00:00 +0800</pubDate>
-        <link>http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-brief-history-of-tomorrow.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-brief-history-of-tomorrow.html</guid>
+        <link>http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-brief-history-of-tomorrow.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-brief-history-of-tomorrow.html</guid>
         
         <category>vision</category>
         
@@ -1497,8 +1589,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;p&gt;从我这段时间的思考里，也是这段时间不断的思维上的拷问中，我慢慢的淡定了下来，选择没有所谓的对错，真正重要的是选择之后的道路，你是否有拼尽努力去完成。既然我已经留在了上海和媳妇团聚，生活上非常大的不确定因素就没有了，我应该像老板所说，带着那些精神去push我自己成长，从而证明我自己。&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Oct 2017 08:00:00 +0800</pubDate>
-        <link>http://localhost:4000/%E6%9D%82%E8%AE%B0/2017/10/21/from-hangzhou-to-shanghai.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E6%9D%82%E8%AE%B0/2017/10/21/from-hangzhou-to-shanghai.html</guid>
+        <link>http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/10/21/from-hangzhou-to-shanghai.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/10/21/from-hangzhou-to-shanghai.html</guid>
         
         <category>misc</category>
         
@@ -1539,8 +1631,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;h2 id=&quot;摘录&quot;&gt;摘录&lt;/h2&gt;
 </description>
         <pubDate>Wed, 27 Sep 2017 11:00:00 +0800</pubDate>
-        <link>http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html</guid>
+        <link>http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html</guid>
         
         <category>vision</category>
         
