@@ -6,9 +6,30 @@
 </description>
     <link>http://papa.melonfamily.com/</link>
     <atom:link href="http://papa.melonfamily.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Dec 2017 10:07:28 +0800</pubDate>
-    <lastBuildDate>Thu, 07 Dec 2017 10:07:28 +0800</lastBuildDate>
+    <pubDate>Thu, 07 Dec 2017 10:11:09 +0800</pubDate>
+    <lastBuildDate>Thu, 07 Dec 2017 10:11:09 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>git-svn mannel</title>
+        <description>&lt;ol&gt;
+  &lt;li&gt;git svn clone [svn_url]/trunk(或具体的branch) -[rStartVersion]:HEAD [targetFolder]&lt;/li&gt;
+  &lt;li&gt;git config –add svn-remote.[svn/test(自定义远端分支名称)].url [svn_url]/branch/2012xxx（具体远端分支地址）&lt;/li&gt;
+  &lt;li&gt;git config –add svn-remote.[svn/test].fetch [:refs/remotes/svn/test]&lt;/li&gt;
+  &lt;li&gt;git svn fetch svn/test -[rStartVersion]:HEAD [targetFolder]&lt;/li&gt;
+  &lt;li&gt;git checkout -b test svn/test&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 07 Dec 2017 08:00:00 +0800</pubDate>
+        <link>http://papa.melonfamily.com/programming/2017/12/07/git-svn-mannel.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/12/07/git-svn-mannel.html</guid>
+        
+        <category>misc,ABC</category>
+        
+        
+        <category>Programming</category>
+        
+      </item>
     
       <item>
         <title>Work &amp; Flow</title>
@@ -1875,48 +1896,6 @@ a,b,c=1,2,&quot;name&quot;
         
         
         <category>杂记</category>
-        
-      </item>
-    
-      <item>
-        <title>《活出生命的意义》</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/manssearchformeaning.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;书名&lt;/th&gt;
-      &lt;th&gt;作者&lt;/th&gt;
-      &lt;th&gt;字数&lt;/th&gt;
-      &lt;th&gt;开始时间&lt;/th&gt;
-      &lt;th&gt;完成时间&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;活出生命的意义&lt;/td&gt;
-      &lt;td&gt;维克多·E·弗兰克尔&lt;/td&gt;
-      &lt;td&gt;2h&lt;/td&gt;
-      &lt;td&gt;2017-09-07&lt;/td&gt;
-      &lt;td&gt;2017-09-10&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;核心脑图&quot;&gt;核心&amp;amp;脑图&lt;/h2&gt;
-
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-
-&lt;h2 id=&quot;摘录&quot;&gt;摘录&lt;/h2&gt;
-</description>
-        <pubDate>Wed, 27 Sep 2017 11:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html</guid>
-        
-        <category>vision</category>
-        
-        
-        <category>读书笔记</category>
         
       </item>
     
