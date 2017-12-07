@@ -6,8 +6,8 @@
 </description>
     <link>http://papa.melonfamily.com/</link>
     <atom:link href="http://papa.melonfamily.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 30 Nov 2017 09:26:55 +0800</pubDate>
-    <lastBuildDate>Thu, 30 Nov 2017 09:26:55 +0800</lastBuildDate>
+    <pubDate>Thu, 07 Dec 2017 10:07:28 +0800</pubDate>
+    <lastBuildDate>Thu, 07 Dec 2017 10:07:28 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -36,33 +36,293 @@
       </item>
     
       <item>
-        <title>Java程序员的基础知识</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/java.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h1 id=&quot;java基础知识&quot;&gt;Java基础知识&lt;/h1&gt;
-&lt;h2 id=&quot;基本概念&quot;&gt;基本概念&lt;/h2&gt;
-&lt;h2 id=&quot;面向对象&quot;&gt;面向对象&lt;/h2&gt;
-&lt;h2 id=&quot;关键字&quot;&gt;关键字&lt;/h2&gt;
-&lt;h2 id=&quot;字符串与数组&quot;&gt;字符串与数组&lt;/h2&gt;
-&lt;h2 id=&quot;输入输出流&quot;&gt;输入输出流&lt;/h2&gt;
-&lt;h2 id=&quot;容器&quot;&gt;容器&lt;/h2&gt;
-&lt;h2 id=&quot;多线程&quot;&gt;多线程&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;h1 id=&quot;java-web&quot;&gt;Java Web&lt;/h1&gt;
-&lt;h2 id=&quot;框架原理&quot;&gt;框架原理&lt;/h2&gt;
-&lt;h2 id=&quot;spring-mvc&quot;&gt;Spring MVC&lt;/h2&gt;
-&lt;h2 id=&quot;spring-boot&quot;&gt;Spring Boot&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;h1 id=&quot;数据库&quot;&gt;数据库&lt;/h1&gt;
-&lt;h2 id=&quot;定义&quot;&gt;定义&lt;/h2&gt;
-&lt;h2 id=&quot;sql&quot;&gt;SQL&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;h1 id=&quot;设计模式&quot;&gt;设计模式&lt;/h1&gt;
-&lt;h2 id=&quot;单例&quot;&gt;单例&lt;/h2&gt;
-&lt;h2 id=&quot;工厂&quot;&gt;工厂&lt;/h2&gt;
-&lt;h2 id=&quot;适配器&quot;&gt;适配器&lt;/h2&gt;
-&lt;h2 id=&quot;观察者&quot;&gt;观察者&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;h1 id=&quot;数据结构与算法&quot;&gt;数据结构与算法&lt;/h1&gt;
+        <title>Core Java Interview Flow</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/java.jpeg&quot; alt=&quot;&quot; /&gt;
+因为工作上的原因，最近要做一些面试，所以决定总结出一套面试流程，其中包含了我所理解的整个面试过程，大致上问题都是由浅入深。这套流程走下来，要对候选人从个人基本信息、性格、表达能力、沟通能力、技术能力、学习能力以及智商情商有个客观的评定（智商情商仅仅做一个模糊的参考）。这套流程可能会随着我的面试过程、平常学习工作中的总结而不停更新。希望这套流程能提升我面试别人的能力，也能发现每一个牛人。&lt;/p&gt;
+
+&lt;h1 id=&quot;step1-候选人基础信息了解和询问&quot;&gt;Step1. 候选人基础信息了解和询问&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;这部分主要让候选人自我介绍，初步粗略的观察一个人。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;姓名、学历、之前的大致工作情况、换工作原因；&lt;/li&gt;
+  &lt;li&gt;项目情况：
+    &lt;ol&gt;
+      &lt;li&gt;项目大概情况（表达能力：能几句话说明白一个项目）；&lt;/li&gt;
+      &lt;li&gt;自己负责的部分（责任感、条理性：说明白自己的工作，说明白自己的工作成效）；&lt;/li&gt;
+      &lt;li&gt;亮点，难点（沟通：能针对提问回答面试官想要了解的东西，不要不懂装懂，或者绕圈子）；&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;询问社交账号：
+    &lt;ol&gt;
+      &lt;li&gt;Github&lt;/li&gt;
+      &lt;li&gt;Stack Overflow&lt;/li&gt;
+      &lt;li&gt;个人博客或网站&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;step2-能力考查&quot;&gt;Step2. 能力考查&lt;/h1&gt;
+&lt;h2 id=&quot;i-基础知识&quot;&gt;I. 基础知识&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;这部分最好结合候选人简历写的能力、项目可以加上一些智商、联想能力的测试&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;面向对象&quot;&gt;面向对象&lt;/h3&gt;
+&lt;h4 id=&quot;面向对象通用问题&quot;&gt;面向对象通用问题&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;四个特点：抽象、继承、封装、多态&lt;/li&gt;
+  &lt;li&gt;什么时候该用组合，什么时候该用继承？除非两者是“is-a”关系，否则不用继承；&lt;/li&gt;
+  &lt;li&gt;什么时候该用接口，什么时候该用抽象类？答案类似上一个，抽象类注重功能的积累，接口注重功能的组合；&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;单例模式&quot;&gt;单例模式&lt;/h4&gt;
+&lt;p&gt;问题点：volatile关键字、多线程并发情况下分析。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1- eager initialization singleton
+    public class Test{
+        private static final Test test = new Test();
+        private Test(){}
+        public static Test getTest(){
+            return test;
+        }
+    ｝
+
+2- lazy initialization singleton (thread safe)
+    public class Test {
+         private static volatile Test test;
+         private Test(){}
+         public static Test getTest() {
+            if(test == null) {
+                synchronized(Test.class) {
+                    if(test == null){test = new Test();
+                }
+            }
+         }
+        return test;
+    ｝
+
+3- Bill Pugh Singleton with Holder Pattern (Preferably the best one)
+    public class Test {
+        private Test(){}
+        private static class TestHolder{
+            private static final Test test = new Test();
+        }
+        public static Test getInstance(){
+            return TestHolder.test;
+        }
+    }
+
+4- enum singleton
+  public enum MySingleton {
+    INSTANCE;
+    private MySingleton() {
+        System.out.println(&quot;Here&quot;);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;参考：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/70689/what-is-an-efficient-way-to-implement-a-singleton-pattern-in-java#&quot;&gt;怎样最有效率的实现一个单例模式&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html&quot;&gt;两次检验加锁为何是错误的用法&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;工厂模式&quot;&gt;工厂模式&lt;/h4&gt;
+&lt;p&gt;三者是抽象程度逐步上升的关系。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;简单工厂：仅仅是把初始化对象的工作，包装掉，没有抽象。&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; class FruitFactory {
+   public Apple makeApple() {
+     // Code for creating an Apple here.
+   }
+   public Orange makeOrange() {
+     // Code for creating an orange here.
+   }
+ }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;工厂方法：产品是抽象的，生成方法是抽象的。生产的方法由子类工厂实现&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; //抽象产品
+ public interface Moveable {
+     void run();
+ }
+ //具体产品
+ public class Plane implements Moveable {
+     @Override
+     public void run() {
+         System.out.println(&quot;plane....&quot;);
+     }
+ }
+ //抽象工厂
+ public abstract class VehicleFactory {
+     abstract Moveable create();
+ }
+ //具体工厂
+ public class PlaneFactory extends VehicleFactory{
+     public Moveable create() {
+         return new Plane();
+     }
+ }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;抽象工厂：可以创建一簇有关联的不同产品&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; //抽象工厂类
+ public abstract class AbstractFactory {
+     public abstract Vehicle createVehicle();
+     public abstract Weapon createWeapon();
+     public abstract Food createFood();
+ }
+ //具体工厂类，其中Food,Vehicle，Weapon是抽象类，
+ public class DefaultFactory extends AbstractFactory{
+     @Override
+     public Food createFood() {
+         return new Apple();
+     }
+     @Override
+     public Vehicle createVehicle() {
+         return new Car();
+     }
+     @Override
+     public Weapon createWeapon() {
+         return new AK47();
+     }
+ }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;参考：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/13029261/design-patterns-factory-vs-factory-method-vs-abstract-factory&quot;&gt;工厂、工厂方法、抽象工厂的区别&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cnblogs.com/forlina/archive/2011/06/21/2086114.html&quot;&gt;工厂模式&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;java基础类库&quot;&gt;Java基础类库&lt;/h3&gt;
+&lt;h4 id=&quot;integer&quot;&gt;Integer&lt;/h4&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public static void main(String[] args) {
+    Integer i01 = 59;
+    int i02 = 59;
+    Integer i03 = Integer.valueOf(59);
+    Integer i04 = new Integer(59);
+
+    System.out.println(i01 == i02); //true
+    System.out.println(i01 == i03); //true
+    System.out.println(i03 == i04); //false
+    System.out.println(i02 == i04); //true
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;string&quot;&gt;String&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//1. 字面值常量池
+public static void main(String[] args) {   
+    String a = &quot;a1&quot;;   
+    String b = &quot;a&quot; + 1;   
+    System.out.println(a == b);//true
+} 
+
+//2.新变量（b的&quot;ab&quot;）在堆上
+public static void main(String[] args) {   
+    String a = &quot;ab&quot;;   
+    String bb = &quot;b&quot;;   
+    String b = &quot;a&quot; + bb;   
+    System.out.println(a == b);//false   
+}  
+
+//3.常量池
+public static void main(String[] args) {   
+    String a = &quot;ab&quot;;   
+    final String bb = &quot;b&quot;;   
+    String b = &quot;a&quot; + bb;   
+    System.out.println(a == b);//true   
+}  
+
+//4.函数返回新对象在堆上
+public static void main(String[] args) {   
+    String a = &quot;ab&quot;;   
+    final String bb = getBB();   
+    String b = &quot;a&quot; + bb;   
+    System.out.println(a == b);//false   
+}   
+private static String getBB() {   
+    return &quot;b&quot;;   
+}  
+
+//5. 新变量在堆上；规范化从常量池取
+private static String a = &quot;ab&quot;;   
+public static void main(String[] args) {   
+    String s1 = &quot;a&quot;;   
+    String s2 = &quot;b&quot;;   
+    String s = s1 + s2;   
+    System.out.println(s == a);//false   
+    System.out.println(s.intern() == a);//true   
+}  
+
+//6.同上
+private static String a = new String(&quot;ab&quot;);   
+public static void main(String[] args) {   
+    String s1 = &quot;a&quot;;   
+    String s2 = &quot;b&quot;;   
+    String s = s1 + s2;   
+    System.out.println(s == a);  //false 
+    System.out.println(s.intern() == a);   //false
+    System.out.println(s.intern() == a.intern()); //true  
+}  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;容器&quot;&gt;容器&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;List：ArrayList、Vector、LinkedList&lt;/li&gt;
+  &lt;li&gt;Map：HashMap、Hashtable&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;多线程&quot;&gt;多线程&lt;/h3&gt;
+
+&lt;h3 id=&quot;java虚拟机&quot;&gt;Java虚拟机&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;内存回收问题&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;web框架&quot;&gt;Web框架&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;依赖反转&lt;/li&gt;
+  &lt;li&gt;AOP的实现&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;数据库技术&quot;&gt;数据库技术&lt;/h3&gt;
+
+&lt;h2 id=&quot;ii-工程技术&quot;&gt;II. 工程技术&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;这部分了解面试人在代码版本管理、线上问题定位、工具使用方面的能力&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;git&quot;&gt;git&lt;/h3&gt;
+&lt;h4 id=&quot;merge和rebase区别&quot;&gt;merge和rebase区别：&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/dev.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/assets/img/merge.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/assets/img/rebase.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;gitflowgithub-flowgitlab-flow&quot;&gt;gitflow、Github flow、Gitlab flow&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/gitflow.png&quot; alt=&quot;&quot; /&gt;
+参考：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ruanyifeng.com/blog/2015/12/git-workflow.html&quot;&gt;git工作流&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ruanyifeng.com/blog/2015/08/git-use-process.html&quot;&gt;Git 使用规范流程&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;iii-学习能力&quot;&gt;III. 学习能力&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;很重要的学习能力，但是还没想好要怎么去面试&lt;/p&gt;
+&lt;/blockquote&gt;
+
 </description>
         <pubDate>Mon, 13 Nov 2017 09:00:00 +0800</pubDate>
         <link>http://papa.melonfamily.com/programming/2017/11/13/java-interview.html</link>

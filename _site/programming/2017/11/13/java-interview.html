@@ -1,1 +1,157 @@
-<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /> <!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]--> <title>Java程序员的基础知识</title> <meta name="description" content="Java基础知识基本概念面向对象关键字字符串与数组输入输出流容器多线程Java Web框架原理Spring MVCSpring Boot数据库定义SQL设计模式单例工厂适配器观察者数据结构与算法"> <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600|Droid+Sans+Mono' rel='stylesheet' type='text/css'> <link rel="stylesheet" href="/css/main.css"> <link rel="canonical" href="http://papa.melonfamily.com/programming/2017/11/13/java-interview.html"> <link rel="alternate" type="application/rss+xml" title="papa@melonfamily" href="http://papa.melonfamily.com/feed.xml" /> <script src="/assets/js/prefixfree.js"></script> </head> <body> <aside id="sidebar"> <div id="sidebar-left"> <a id="sidebar-avatar" href="/"> <img id="sidebar-avatar-img" alt="" src="/assets/img/avatar.jpg"/> </a> <div id="sidebar-social"> <a href="/feed.xml" class="sidebar-social-icon feed"></a> <a href="mailto:jslygcm@gmail.com" class="sidebar-social-icon email"></a> <a href="https://github.com/channingchen" class="sidebar-social-icon github" target="_blank"></a> </div> <ul id="sidebar-tags"> <li class="sidebar-tag active" data-filter="all">全部文章</li> <li class="sidebar-tag" data-filter="每天听本书">每天听本书</li> <li class="sidebar-tag" data-filter="杂记">杂记</li> <li class="sidebar-tag" data-filter="基建">基建</li> <li class="sidebar-tag" data-filter="读书计划">读书计划</li> <li class="sidebar-tag" data-filter="读书笔记">读书笔记</li> <li class="sidebar-tag" data-filter="Programming">Programming</li> </ul> </div> <div id="sidebar-right"> <!-- <div id="search-box"> <input id="search-input" type="text" placeholder="Search" /> </div> --> <nav id="toc"> <a class="toc-link" data-tags="Programming" href="/programming/2017/11/18/work-and-flow.html"> Work & Flow </a> <a class="toc-link" data-tags="Programming" href="/programming/2017/11/13/java-interview.html"> Java程序员的基础知识 </a> <a class="toc-link" data-tags="Programming" href="/programming/2017/11/11/python-abc.html"> python ABC </a> <a class="toc-link" data-tags="杂记" href="/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html"> 生活和投资 </a> <a class="toc-link" data-tags="每天听本书" href="/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html"> 速读拓展：2017.11 </a> <a class="toc-link" data-tags="每天听本书" href="/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html"> 速读拓展：2017.10 </a> <a class="toc-link" data-tags="读书笔记" href="/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-wonderful-life.html"> 《奇特的一生》 </a> <a class="toc-link" data-tags="读书笔记" href="/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-brief-history-of-tomorrow.html"> 《未来简史》 </a> <a class="toc-link" data-tags="杂记" href="/%E6%9D%82%E8%AE%B0/2017/10/21/from-hangzhou-to-shanghai.html"> 离开杭州，来到上海 </a> <a class="toc-link" data-tags="读书笔记" href="/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html"> 《活出生命的意义》 </a> <a class="toc-link" data-tags="读书笔记" href="/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/poor-charlies-almanack.html"> 《穷查理宝典》 </a> <a class="toc-link" data-tags="杂记" href="/%E6%9D%82%E8%AE%B0/2017/09/27/do-more-with-less.html"> 花一份时间，做几份事情——论聪明的事半功倍 </a> <a class="toc-link" data-tags="Programming" href="/programming/2017/09/27/log4j-improve-RollingFileAppender.html"> log4j:RollingFileAppender Improvment </a> <a class="toc-link" data-tags="读书笔记" href="/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/sapiens.html"> 《人类简史》 </a> <a class="toc-link" data-tags="读书计划" href="/%E8%AF%BB%E4%B9%A6%E8%AE%A1%E5%88%92/2017/09/27/cross-disciplinary-reading.html"> 跨学科(cross-disciplinary)阅读指南 </a> <a class="toc-link" data-tags="基建" href="/%E5%9F%BA%E5%BB%BA/2017/09/27/my-app.html"> 奇特的一生APP </a> <a class="toc-link" data-tags="每天听本书" href="/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/09/27/fast-reading.html"> 速读拓展：2017.09 </a> <a class="toc-link" data-tags="基建" href="/%E5%9F%BA%E5%BB%BA/2017/09/27/blog.html"> 博客记 </a> <a class="toc-link" data-tags="基建" href="/%E5%9F%BA%E5%BB%BA/2017/09/27/about-gfw.html"> 翻墙记 </a> <a class="toc-link" data-tags="杂记" href="/%E6%9D%82%E8%AE%B0/2017/09/27/init.html"> 围城 </a> <a class="toc-link" data-tags="每天听本书" href="/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/09/20/fast-reading-total.html"> 速读拓展：目的、方法与期望结果 </a> </nav> </div> </aside> <main id="main"> <article class="post container"> <div class="post-meta"> <span class="post-meta-span date">2017 November 13</span> <span class="post-meta-span tag">Java,ABC</span> </div> <h1 class="post-title">Java程序员的基础知识</h1> <p><img src="/assets/img/java.jpeg" alt="" /></p> <h1 id="java基础知识">Java基础知识</h1> <h2 id="基本概念">基本概念</h2> <h2 id="面向对象">面向对象</h2> <h2 id="关键字">关键字</h2> <h2 id="字符串与数组">字符串与数组</h2> <h2 id="输入输出流">输入输出流</h2> <h2 id="容器">容器</h2> <h2 id="多线程">多线程</h2> <hr /> <h1 id="java-web">Java Web</h1> <h2 id="框架原理">框架原理</h2> <h2 id="spring-mvc">Spring MVC</h2> <h2 id="spring-boot">Spring Boot</h2> <hr /> <h1 id="数据库">数据库</h1> <h2 id="定义">定义</h2> <h2 id="sql">SQL</h2> <hr /> <h1 id="设计模式">设计模式</h1> <h2 id="单例">单例</h2> <h2 id="工厂">工厂</h2> <h2 id="适配器">适配器</h2> <h2 id="观察者">观察者</h2> <hr /> <h1 id="数据结构与算法">数据结构与算法</h1> </article> <div class="post-share"> <div class="container"> <a href="https://twitter.com/share?url=http://papa.melonfamily.com/programming/2017/11/13/java-interview.html&text=Java程序员的基础知识" target="_blank" class="post-share-icon twitter"></a> <a href="https://www.evernote.com/clip.action?url=http://papa.melonfamily.com/programming/2017/11/13/java-interview.html&title=Java程序员的基础知识" target="_blank" class="post-share-icon evernote"></a> <a href="http://service.weibo.com/share/share.php?url=http://papa.melonfamily.com/programming/2017/11/13/java-interview.html&title=Java程序员的基础知识" target="_blank" class="post-share-icon weibo"></a> </div> </div> <div class="footer"> <div class="container"> <p class="footer-entry">All content is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA</a></p> <p class="footer-entry">Buit with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll theme</a> • Hosted on <a href="https://pages.github.com/" target="_blank">Github</a></p> </div> </div> </main> <button id="menu"> <span id="menu-icons"></span> </button> <script src="/assets/js/jquery-2.1.3.min.js"></script> <script src="/assets/js/jquery.pjax.js"></script> <script src="/assets/js/nprogress.js"></script> <script src="/assets/js/main.js"></script> </body> </html>
+<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /> <!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]--> <title>Core Java Interview Flow</title> <meta name="description" content="因为工作上的原因，最近要做一些面试，所以决定总结出一套面试流程，其中包含了我所理解的整个面试过程，大致上问题都是由浅入深。这套流程走下来，要对候选人从个人基本信息、性格、表达能力、沟通能力、技术能力、学习能力以及智商情商有个客观的评定（智商情商仅仅做一个模糊的参考）。这套流程可能会随着我的面试过程、平常学习工作中..."> <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600|Droid+Sans+Mono' rel='stylesheet' type='text/css'> <link rel="stylesheet" href="/css/main.css"> <link rel="canonical" href="http://papa.melonfamily.com/programming/2017/11/13/java-interview.html"> <link rel="alternate" type="application/rss+xml" title="papa@melonfamily" href="http://papa.melonfamily.com/feed.xml" /> <script src="/assets/js/prefixfree.js"></script> </head> <body> <aside id="sidebar"> <div id="sidebar-left"> <a id="sidebar-avatar" href="/"> <img id="sidebar-avatar-img" alt="" src="/assets/img/avatar.jpg"/> </a> <div id="sidebar-social"> <a href="/feed.xml" class="sidebar-social-icon feed"></a> <a href="mailto:jslygcm@gmail.com" class="sidebar-social-icon email"></a> <a href="https://github.com/channingchen" class="sidebar-social-icon github" target="_blank"></a> </div> <ul id="sidebar-tags"> <li class="sidebar-tag active" data-filter="all">全部文章</li> <li class="sidebar-tag" data-filter="每天听本书">每天听本书</li> <li class="sidebar-tag" data-filter="杂记">杂记</li> <li class="sidebar-tag" data-filter="基建">基建</li> <li class="sidebar-tag" data-filter="读书计划">读书计划</li> <li class="sidebar-tag" data-filter="读书笔记">读书笔记</li> <li class="sidebar-tag" data-filter="Programming">Programming</li> </ul> </div> <div id="sidebar-right"> <!-- <div id="search-box"> <input id="search-input" type="text" placeholder="Search" /> </div> --> <nav id="toc"> <a class="toc-link" data-tags="Programming" href="/programming/2017/11/18/work-and-flow.html"> Work & Flow </a> <a class="toc-link" data-tags="Programming" href="/programming/2017/11/13/java-interview.html"> Core Java Interview Flow </a> <a class="toc-link" data-tags="Programming" href="/programming/2017/11/11/python-abc.html"> python ABC </a> <a class="toc-link" data-tags="杂记" href="/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html"> 生活和投资 </a> <a class="toc-link" data-tags="每天听本书" href="/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html"> 速读拓展：2017.11 </a> <a class="toc-link" data-tags="每天听本书" href="/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html"> 速读拓展：2017.10 </a> <a class="toc-link" data-tags="读书笔记" href="/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-wonderful-life.html"> 《奇特的一生》 </a> <a class="toc-link" data-tags="读书笔记" href="/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-brief-history-of-tomorrow.html"> 《未来简史》 </a> <a class="toc-link" data-tags="杂记" href="/%E6%9D%82%E8%AE%B0/2017/10/21/from-hangzhou-to-shanghai.html"> 离开杭州，来到上海 </a> <a class="toc-link" data-tags="读书笔记" href="/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/mans-search-for-meaning.html"> 《活出生命的意义》 </a> <a class="toc-link" data-tags="读书笔记" href="/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/poor-charlies-almanack.html"> 《穷查理宝典》 </a> <a class="toc-link" data-tags="杂记" href="/%E6%9D%82%E8%AE%B0/2017/09/27/do-more-with-less.html"> 花一份时间，做几份事情——论聪明的事半功倍 </a> <a class="toc-link" data-tags="Programming" href="/programming/2017/09/27/log4j-improve-RollingFileAppender.html"> log4j:RollingFileAppender Improvment </a> <a class="toc-link" data-tags="读书笔记" href="/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/09/27/sapiens.html"> 《人类简史》 </a> <a class="toc-link" data-tags="读书计划" href="/%E8%AF%BB%E4%B9%A6%E8%AE%A1%E5%88%92/2017/09/27/cross-disciplinary-reading.html"> 跨学科(cross-disciplinary)阅读指南 </a> <a class="toc-link" data-tags="基建" href="/%E5%9F%BA%E5%BB%BA/2017/09/27/my-app.html"> 奇特的一生APP </a> <a class="toc-link" data-tags="每天听本书" href="/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/09/27/fast-reading.html"> 速读拓展：2017.09 </a> <a class="toc-link" data-tags="基建" href="/%E5%9F%BA%E5%BB%BA/2017/09/27/blog.html"> 博客记 </a> <a class="toc-link" data-tags="基建" href="/%E5%9F%BA%E5%BB%BA/2017/09/27/about-gfw.html"> 翻墙记 </a> <a class="toc-link" data-tags="杂记" href="/%E6%9D%82%E8%AE%B0/2017/09/27/init.html"> 围城 </a> <a class="toc-link" data-tags="每天听本书" href="/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/09/20/fast-reading-total.html"> 速读拓展：目的、方法与期望结果 </a> </nav> </div> </aside> <main id="main"> <article class="post container"> <div class="post-meta"> <span class="post-meta-span date">2017 November 13</span> <span class="post-meta-span tag">Java,ABC</span> </div> <h1 class="post-title">Core Java Interview Flow</h1> <p><img src="/assets/img/java.jpeg" alt="" /> 因为工作上的原因，最近要做一些面试，所以决定总结出一套面试流程，其中包含了我所理解的整个面试过程，大致上问题都是由浅入深。这套流程走下来，要对候选人从个人基本信息、性格、表达能力、沟通能力、技术能力、学习能力以及智商情商有个客观的评定（智商情商仅仅做一个模糊的参考）。这套流程可能会随着我的面试过程、平常学习工作中的总结而不停更新。希望这套流程能提升我面试别人的能力，也能发现每一个牛人。</p> <h1 id="step1-候选人基础信息了解和询问">Step1. 候选人基础信息了解和询问</h1> <blockquote> <p>这部分主要让候选人自我介绍，初步粗略的观察一个人。</p> </blockquote> <ol> <li>姓名、学历、之前的大致工作情况、换工作原因；</li> <li>项目情况： <ol> <li>项目大概情况（表达能力：能几句话说明白一个项目）；</li> <li>自己负责的部分（责任感、条理性：说明白自己的工作，说明白自己的工作成效）；</li> <li>亮点，难点（沟通：能针对提问回答面试官想要了解的东西，不要不懂装懂，或者绕圈子）；</li> </ol> </li> <li>询问社交账号： <ol> <li>Github</li> <li>Stack Overflow</li> <li>个人博客或网站</li> </ol> </li> </ol> <h1 id="step2-能力考查">Step2. 能力考查</h1> <h2 id="i-基础知识">I. 基础知识</h2> <blockquote> <p>这部分最好结合候选人简历写的能力、项目可以加上一些智商、联想能力的测试</p> </blockquote> <h3 id="面向对象">面向对象</h3> <h4 id="面向对象通用问题">面向对象通用问题</h4> <ol> <li>四个特点：抽象、继承、封装、多态</li> <li>什么时候该用组合，什么时候该用继承？除非两者是“is-a”关系，否则不用继承；</li> <li>什么时候该用接口，什么时候该用抽象类？答案类似上一个，抽象类注重功能的积累，接口注重功能的组合；</li> </ol> <h4 id="单例模式">单例模式</h4> <p>问题点：volatile关键字、多线程并发情况下分析。</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1- eager initialization singleton
+    public class Test{
+        private static final Test test = new Test();
+        private Test(){}
+        public static Test getTest(){
+            return test;
+        }
+    ｝
+
+2- lazy initialization singleton (thread safe)
+    public class Test {
+         private static volatile Test test;
+         private Test(){}
+         public static Test getTest() {
+            if(test == null) {
+                synchronized(Test.class) {
+                    if(test == null){test = new Test();
+                }
+            }
+         }
+        return test;
+    ｝
+
+3- Bill Pugh Singleton with Holder Pattern (Preferably the best one)
+    public class Test {
+        private Test(){}
+        private static class TestHolder{
+            private static final Test test = new Test();
+        }
+        public static Test getInstance(){
+            return TestHolder.test;
+        }
+    }
+
+4- enum singleton
+  public enum MySingleton {
+    INSTANCE;
+    private MySingleton() {
+        System.out.println("Here");
+    }
+}
+</code></pre></div></div> <p>参考：</p> <ol> <li><a href="https://stackoverflow.com/questions/70689/what-is-an-efficient-way-to-implement-a-singleton-pattern-in-java#">怎样最有效率的实现一个单例模式</a></li> <li><a href="http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html">两次检验加锁为何是错误的用法</a></li> </ol> <h4 id="工厂模式">工厂模式</h4> <p>三者是抽象程度逐步上升的关系。</p> <ol> <li> <p>简单工厂：仅仅是把初始化对象的工作，包装掉，没有抽象。</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> class FruitFactory {
+   public Apple makeApple() {
+     // Code for creating an Apple here.
+   }
+   public Orange makeOrange() {
+     // Code for creating an orange here.
+   }
+ }
+</code></pre></div> </div> </li> <li> <p>工厂方法：产品是抽象的，生成方法是抽象的。生产的方法由子类工厂实现</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> //抽象产品
+ public interface Moveable {
+     void run();
+ }
+ //具体产品
+ public class Plane implements Moveable {
+     @Override
+     public void run() {
+         System.out.println("plane....");
+     }
+ }
+ //抽象工厂
+ public abstract class VehicleFactory {
+     abstract Moveable create();
+ }
+ //具体工厂
+ public class PlaneFactory extends VehicleFactory{
+     public Moveable create() {
+         return new Plane();
+     }
+ }
+</code></pre></div> </div> </li> <li> <p>抽象工厂：可以创建一簇有关联的不同产品</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> //抽象工厂类
+ public abstract class AbstractFactory {
+     public abstract Vehicle createVehicle();
+     public abstract Weapon createWeapon();
+     public abstract Food createFood();
+ }
+ //具体工厂类，其中Food,Vehicle，Weapon是抽象类，
+ public class DefaultFactory extends AbstractFactory{
+     @Override
+     public Food createFood() {
+         return new Apple();
+     }
+     @Override
+     public Vehicle createVehicle() {
+         return new Car();
+     }
+     @Override
+     public Weapon createWeapon() {
+         return new AK47();
+     }
+ }
+</code></pre></div> </div> </li> </ol> <p>参考：</p> <ol> <li><a href="https://stackoverflow.com/questions/13029261/design-patterns-factory-vs-factory-method-vs-abstract-factory">工厂、工厂方法、抽象工厂的区别</a></li> <li><a href="https://www.cnblogs.com/forlina/archive/2011/06/21/2086114.html">工厂模式</a></li> </ol> <h3 id="java基础类库">Java基础类库</h3> <h4 id="integer">Integer</h4> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public static void main(String[] args) {
+    Integer i01 = 59;
+    int i02 = 59;
+    Integer i03 = Integer.valueOf(59);
+    Integer i04 = new Integer(59);
+
+    System.out.println(i01 == i02); //true
+    System.out.println(i01 == i03); //true
+    System.out.println(i03 == i04); //false
+    System.out.println(i02 == i04); //true
+}
+</code></pre></div></div> <h4 id="string">String</h4> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>//1. 字面值常量池
+public static void main(String[] args) {   
+    String a = "a1";   
+    String b = "a" + 1;   
+    System.out.println(a == b);//true
+} 
+
+//2.新变量（b的"ab"）在堆上
+public static void main(String[] args) {   
+    String a = "ab";   
+    String bb = "b";   
+    String b = "a" + bb;   
+    System.out.println(a == b);//false   
+}  
+
+//3.常量池
+public static void main(String[] args) {   
+    String a = "ab";   
+    final String bb = "b";   
+    String b = "a" + bb;   
+    System.out.println(a == b);//true   
+}  
+
+//4.函数返回新对象在堆上
+public static void main(String[] args) {   
+    String a = "ab";   
+    final String bb = getBB();   
+    String b = "a" + bb;   
+    System.out.println(a == b);//false   
+}   
+private static String getBB() {   
+    return "b";   
+}  
+
+//5. 新变量在堆上；规范化从常量池取
+private static String a = "ab";   
+public static void main(String[] args) {   
+    String s1 = "a";   
+    String s2 = "b";   
+    String s = s1 + s2;   
+    System.out.println(s == a);//false   
+    System.out.println(s.intern() == a);//true   
+}  
+
+//6.同上
+private static String a = new String("ab");   
+public static void main(String[] args) {   
+    String s1 = "a";   
+    String s2 = "b";   
+    String s = s1 + s2;   
+    System.out.println(s == a);  //false 
+    System.out.println(s.intern() == a);   //false
+    System.out.println(s.intern() == a.intern()); //true  
+}  
+</code></pre></div></div> <h3 id="容器">容器</h3> <ol> <li>List：ArrayList、Vector、LinkedList</li> <li>Map：HashMap、Hashtable</li> </ol> <h3 id="多线程">多线程</h3> <h3 id="java虚拟机">Java虚拟机</h3> <ol> <li>内存回收问题</li> </ol> <h3 id="web框架">Web框架</h3> <ol> <li>依赖反转</li> <li>AOP的实现</li> </ol> <h3 id="数据库技术">数据库技术</h3> <h2 id="ii-工程技术">II. 工程技术</h2> <blockquote> <p>这部分了解面试人在代码版本管理、线上问题定位、工具使用方面的能力</p> </blockquote> <h3 id="git">git</h3> <h4 id="merge和rebase区别">merge和rebase区别：</h4> <p><img src="/assets/img/dev.jpg" alt="" /> <img src="/assets/img/merge.jpg" alt="" /> <img src="/assets/img/rebase.jpg" alt="" /></p> <h4 id="gitflowgithub-flowgitlab-flow">gitflow、Github flow、Gitlab flow</h4> <p><img src="/assets/img/gitflow.png" alt="" /> 参考：</p> <ol> <li><a href="http://www.ruanyifeng.com/blog/2015/12/git-workflow.html">git工作流</a></li> <li><a href="http://www.ruanyifeng.com/blog/2015/08/git-use-process.html">Git 使用规范流程</a></li> </ol> <h2 id="iii-学习能力">III. 学习能力</h2> <blockquote> <p>很重要的学习能力，但是还没想好要怎么去面试</p> </blockquote> </article> <div class="post-share"> <div class="container"> <a href="https://twitter.com/share?url=http://papa.melonfamily.com/programming/2017/11/13/java-interview.html&text=Core Java Interview Flow" target="_blank" class="post-share-icon twitter"></a> <a href="https://www.evernote.com/clip.action?url=http://papa.melonfamily.com/programming/2017/11/13/java-interview.html&title=Core Java Interview Flow" target="_blank" class="post-share-icon evernote"></a> <a href="http://service.weibo.com/share/share.php?url=http://papa.melonfamily.com/programming/2017/11/13/java-interview.html&title=Core Java Interview Flow" target="_blank" class="post-share-icon weibo"></a> </div> </div> <div class="footer"> <div class="container"> <p class="footer-entry">All content is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA</a></p> <p class="footer-entry">Buit with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll theme</a> • Hosted on <a href="https://pages.github.com/" target="_blank">Github</a></p> </div> </div> </main> <button id="menu"> <span id="menu-icons"></span> </button> <script src="/assets/js/jquery-2.1.3.min.js"></script> <script src="/assets/js/jquery.pjax.js"></script> <script src="/assets/js/nprogress.js"></script> <script src="/assets/js/main.js"></script> </body> </html>
