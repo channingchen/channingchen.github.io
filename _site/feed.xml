@@ -6,18 +6,69 @@
 </description>
     <link>http://papa.melonfamily.com/</link>
     <atom:link href="http://papa.melonfamily.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Dec 2017 10:11:09 +0800</pubDate>
-    <lastBuildDate>Thu, 07 Dec 2017 10:11:09 +0800</lastBuildDate>
+    <pubDate>Tue, 12 Dec 2017 23:46:19 +0800</pubDate>
+    <lastBuildDate>Tue, 12 Dec 2017 23:46:19 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>速读拓展：2017.12</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/listenbook.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;怪诞行为学2&quot;&gt;《怪诞行为学2》&lt;/h2&gt;
+&lt;h3 id=&quot;1-非理性行为对人们工作的影响ß&quot;&gt;1. 非理性行为对人们工作的影响ß&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;高额奖金未必提高员工的业绩
+案例：三组被测完成小任务，分别许诺少量奖金、适量奖金和高额奖金，高额奖金会带来负面的压力，反而会降低被测的表现
+结论：
+    &lt;h3 id=&quot;2-非理性行为对人们生活的影响&quot;&gt;2. 非理性行为对人们生活的影响&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 12 Dec 2017 09:00:00 +0800</pubDate>
+        <link>http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/12/12/fast-reading.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/12/12/fast-reading.html</guid>
+        
+        <category>vision</category>
+        
+        
+        <category>每天听本书</category>
+        
+      </item>
     
       <item>
         <title>git-svn mannel</title>
         <description>&lt;ol&gt;
-  &lt;li&gt;git svn clone [svn_url]/trunk(或具体的branch) -[rStartVersion]:HEAD [targetFolder]&lt;/li&gt;
-  &lt;li&gt;git config –add svn-remote.[svn/test(自定义远端分支名称)].url [svn_url]/branch/2012xxx（具体远端分支地址）&lt;/li&gt;
-  &lt;li&gt;git config –add svn-remote.[svn/test].fetch [:refs/remotes/svn/test]&lt;/li&gt;
-  &lt;li&gt;git svn fetch svn/test -[rStartVersion]:HEAD [targetFolder]&lt;/li&gt;
-  &lt;li&gt;git checkout -b test svn/test&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;克隆主干，rStartVersion是主干的一个版本号&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; git svn clone [svn_url]/trunk -[rStartVersion]:HEAD [targetFolder]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;添加远端分支&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; git config --add svn-remote.[svn/test(自定义远端分支名称)].url [svn_url]/branch/2017xxx（具体远端分支地址）
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;添加远端分支与本地映射&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; git config --add svn-remote.[svn/test].fetch [:refs/remotes/svn/test]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;拉取一个范围的版本&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; git svn fetch svn/test -[rStartVersion]:HEAD [targetFolder]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;切换到开发分支&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; git checkout -b test svn/test
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 </description>
         <pubDate>Thu, 07 Dec 2017 08:00:00 +0800</pubDate>
@@ -101,7 +152,22 @@
 &lt;h4 id=&quot;单例模式&quot;&gt;单例模式&lt;/h4&gt;
 &lt;p&gt;问题点：volatile关键字、多线程并发情况下分析。&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1- eager initialization singleton
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wrong：
+原因：test=new Test()发生指令重排，Test构造函数的调用和为test赋指向新Test实例的空间地址两件事情顺序不确定。假设后一件事先发生，则如果此时又有另一个线程获取单例，则会直接访问到未经初始化的区域。
+    public class Test {
+         private static Test test;
+         private Test(){}
+         public static Test getTest() {
+            if(test == null) {
+                synchronized(Test.class) {
+                    if(test == null){test = new Test();
+                }
+            }
+         }
+        return test;
+    ｝
+
+1- eager initialization singleton
     public class Test{
         private static final Test test = new Test();
         private Test(){}
@@ -1795,6 +1861,41 @@ a,b,c=1,2,&quot;name&quot;
       </item>
     
       <item>
+        <title>《心理学与生活》，第一章：生活中的心理学</title>
+        <description>&lt;h1 id=&quot;心理学的定义&quot;&gt;心理学的定义&lt;/h1&gt;
+&lt;p&gt;关于&lt;strong&gt;个体&lt;/strong&gt;的&lt;strong&gt;行为&lt;/strong&gt;及&lt;strong&gt;精神过程&lt;/strong&gt;的&lt;strong&gt;科学的研究&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&quot;科学的&quot;&gt;科学的&lt;/h2&gt;
+&lt;p&gt;科学的方法，一套分析和解决问题的有序步骤，用客观收集到的信息作为得出结论的事实基础。&lt;/p&gt;
+&lt;h2 id=&quot;行为&quot;&gt;行为&lt;/h2&gt;
+&lt;p&gt;行为是有机体适应环境的方式，心理学研究很大程度上是人类或其他物种可观察行为。&lt;/p&gt;
+&lt;h2 id=&quot;个体&quot;&gt;个体&lt;/h2&gt;
+&lt;p&gt;分析对象往往是一个个体&lt;/p&gt;
+&lt;h2 id=&quot;心理&quot;&gt;心理&lt;/h2&gt;
+&lt;p&gt;精神过程，人类精神的活动，是理解人行为的必要条件&lt;/p&gt;
+&lt;h2 id=&quot;和其他学科的关联&quot;&gt;和其他学科的关联&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;社会科学：从经济学、政治学、社会学和文化人类学中汲取营养；&lt;/li&gt;
+  &lt;li&gt;生物科学：大脑过程和行为的生化基础；&lt;/li&gt;
+  &lt;li&gt;认知科学：人类精神活动和计算机科学、人工智能、应用数学等关联；&lt;/li&gt;
+  &lt;li&gt;健康科学：医学、教育、法律和环境相关联。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;心理学的目标&quot;&gt;心理学的目标&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;描述&lt;/strong&gt;、&lt;strong&gt;解释&lt;/strong&gt;、&lt;strong&gt;预测&lt;/strong&gt;和&lt;strong&gt;控制&lt;/strong&gt;行为，应用心理学还有一个目的：&lt;strong&gt;提高人类的生活质量&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&quot;描述发生的事情&quot;&gt;描述发生的事情&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 21 Oct 2017 10:00:00 +0800</pubDate>
+        <link>http://papa.melonfamily.com/%E5%BF%83%E7%90%86%E5%AD%A6/2017/10/21/pal-1.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/%E5%BF%83%E7%90%86%E5%AD%A6/2017/10/21/pal-1.html</guid>
+        
+        <category>cdr,psychology</category>
+        
+        
+        <category>心理学</category>
+        
+      </item>
+    
+      <item>
         <title>《奇特的一生》</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/img/awesomelife.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -1833,69 +1934,6 @@ a,b,c=1,2,&quot;name&quot;
         
         
         <category>读书笔记</category>
-        
-      </item>
-    
-      <item>
-        <title>《未来简史》</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/homodeus.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;书名&lt;/th&gt;
-      &lt;th&gt;作者&lt;/th&gt;
-      &lt;th&gt;字数&lt;/th&gt;
-      &lt;th&gt;开始时间&lt;/th&gt;
-      &lt;th&gt;完成时间&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;未来简史&lt;/td&gt;
-      &lt;td&gt;尤瓦尔·赫拉利&lt;/td&gt;
-      &lt;td&gt;307k&lt;/td&gt;
-      &lt;td&gt;2017-10-20&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;核心脑图&quot;&gt;核心&amp;amp;脑图&lt;/h2&gt;
-
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-
-&lt;h2 id=&quot;摘录&quot;&gt;摘录&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 21 Oct 2017 10:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-brief-history-of-tomorrow.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-brief-history-of-tomorrow.html</guid>
-        
-        <category>vision</category>
-        
-        
-        <category>读书笔记</category>
-        
-      </item>
-    
-      <item>
-        <title>离开杭州，来到上海</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/hz2sh.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;终于来到了上海，和媳妇团聚了。离开杭州的时候，写下了&lt;a href=&quot;/杂记/2017/09/27/init.html&quot;&gt;《围城》&lt;/a&gt;，记述了那个时候的不安和纠结。在离开杭州最后的日子，办完了离职手续，恰逢团队在三台山团建，也就一块跟着去了。杨公堤西面有一处很幽静的地方，湖畔大学就坐落在那里，大家沿着龙井山里幽静的小路一边走一边欣赏，走累了就在农家乐喝茶，嗑点瓜子，看看书，好不悠闲。&lt;/p&gt;
-
-&lt;p&gt;晚上开饭前，各位小老板先汇报了各自团队的KPI，之后大老板再做总结。老板总结之前，告诉了大家我要离开的消息，同时讨论了和我之前谈话中的一个问题：“公司的成功，和我个人的成功，两者有何关系”。老板觉得，公司如果能够成功，一定是公司在某些方面作对了事情，这种作对是很难的，那么作为公司里的个人，肯定会被这个公司裹挟着往前，被裹挟着往前的话，即使你不知道该做什么该怎么做，也很可能在做对的事情，那么到最后可能你就莫名其妙的成功了。同时还推荐了我们所有人一本书，叫做《基业长青》，他主要讲了里面的三个点，送给即将离开的我，以及在场的所有人：一个胆大妄为的目标、告诉自己永远不够好以及不忘初心。他希望我能带着这些离开，带着这些精神和做事的方法离开，那么在任何一个地方，无论环境上是好还是差，都能让自己得到发展。实话来说，第一份工作找到这种能对你人生有所启发的老板，确实是一件很幸运的事情，我们的几次谈话，谈话里涉及到的思考，都对我很有帮助。离开了杭州奔赴上海，离开了毕业后的第一家公司第一份工作，最后的团建，也算是一个圆满的句号了。&lt;/p&gt;
-
-&lt;p&gt;从我这段时间的思考里，也是这段时间不断的思维上的拷问中，我慢慢的淡定了下来，选择没有所谓的对错，真正重要的是选择之后的道路，你是否有拼尽努力去完成。既然我已经留在了上海和媳妇团聚，生活上非常大的不确定因素就没有了，我应该像老板所说，带着那些精神去push我自己成长，从而证明我自己。&lt;/p&gt;
-</description>
-        <pubDate>Sat, 21 Oct 2017 08:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/10/21/from-hangzhou-to-shanghai.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/10/21/from-hangzhou-to-shanghai.html</guid>
-        
-        <category>misc</category>
-        
-        
-        <category>杂记</category>
         
       </item>
     

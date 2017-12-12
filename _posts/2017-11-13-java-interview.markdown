@@ -34,6 +34,21 @@ tags: Java,ABC
 #### 单例模式
 问题点：volatile关键字、多线程并发情况下分析。
 
+	wrong：
+	原因：test=new Test()发生指令重排，Test构造函数的调用和为test赋指向新Test实例的空间地址两件事情顺序不确定。假设后一件事先发生，则如果此时又有另一个线程获取单例，则会直接访问到未经初始化的区域。
+	    public class Test {
+	         private static Test test;
+	         private Test(){}
+	         public static Test getTest() {
+	            if(test == null) {
+	                synchronized(Test.class) {
+	                    if(test == null){test = new Test();
+	                }
+	            }
+	         }
+	        return test;
+	    ｝
+
 	1- eager initialization singleton
 	    public class Test{
 	        private static final Test test = new Test();
