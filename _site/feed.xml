@@ -6,9 +6,9 @@
 </description>
     <link>http://papa.melonfamily.com/</link>
     <atom:link href="http://papa.melonfamily.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Dec 2017 23:46:19 +0800</pubDate>
-    <lastBuildDate>Tue, 12 Dec 2017 23:46:19 +0800</lastBuildDate>
-    <generator>Jekyll v3.6.2</generator>
+    <pubDate>Wed, 13 Dec 2017 08:20:24 +0800</pubDate>
+    <lastBuildDate>Wed, 13 Dec 2017 08:20:24 +0800</lastBuildDate>
+    <generator>Jekyll v3.6.0</generator>
     
       <item>
         <title>速读拓展：2017.12</title>
@@ -1864,15 +1864,15 @@ a,b,c=1,2,&quot;name&quot;
         <title>《心理学与生活》，第一章：生活中的心理学</title>
         <description>&lt;h1 id=&quot;心理学的定义&quot;&gt;心理学的定义&lt;/h1&gt;
 &lt;p&gt;关于&lt;strong&gt;个体&lt;/strong&gt;的&lt;strong&gt;行为&lt;/strong&gt;及&lt;strong&gt;精神过程&lt;/strong&gt;的&lt;strong&gt;科学的研究&lt;/strong&gt;。&lt;/p&gt;
-&lt;h2 id=&quot;科学的&quot;&gt;科学的&lt;/h2&gt;
+&lt;h3 id=&quot;科学的&quot;&gt;科学的&lt;/h3&gt;
 &lt;p&gt;科学的方法，一套分析和解决问题的有序步骤，用客观收集到的信息作为得出结论的事实基础。&lt;/p&gt;
-&lt;h2 id=&quot;行为&quot;&gt;行为&lt;/h2&gt;
+&lt;h3 id=&quot;行为&quot;&gt;行为&lt;/h3&gt;
 &lt;p&gt;行为是有机体适应环境的方式，心理学研究很大程度上是人类或其他物种可观察行为。&lt;/p&gt;
-&lt;h2 id=&quot;个体&quot;&gt;个体&lt;/h2&gt;
+&lt;h3 id=&quot;个体&quot;&gt;个体&lt;/h3&gt;
 &lt;p&gt;分析对象往往是一个个体&lt;/p&gt;
-&lt;h2 id=&quot;心理&quot;&gt;心理&lt;/h2&gt;
+&lt;h3 id=&quot;心理&quot;&gt;心理&lt;/h3&gt;
 &lt;p&gt;精神过程，人类精神的活动，是理解人行为的必要条件&lt;/p&gt;
-&lt;h2 id=&quot;和其他学科的关联&quot;&gt;和其他学科的关联&lt;/h2&gt;
+&lt;h3 id=&quot;和其他学科的关联&quot;&gt;和其他学科的关联&lt;/h3&gt;
 &lt;ol&gt;
   &lt;li&gt;社会科学：从经济学、政治学、社会学和文化人类学中汲取营养；&lt;/li&gt;
   &lt;li&gt;生物科学：大脑过程和行为的生化基础；&lt;/li&gt;
@@ -1880,9 +1880,67 @@ a,b,c=1,2,&quot;name&quot;
   &lt;li&gt;健康科学：医学、教育、法律和环境相关联。&lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;hr /&gt;
+
 &lt;h1 id=&quot;心理学的目标&quot;&gt;心理学的目标&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;描述&lt;/strong&gt;、&lt;strong&gt;解释&lt;/strong&gt;、&lt;strong&gt;预测&lt;/strong&gt;和&lt;strong&gt;控制&lt;/strong&gt;行为，应用心理学还有一个目的：&lt;strong&gt;提高人类的生活质量&lt;/strong&gt;。&lt;/p&gt;
-&lt;h2 id=&quot;描述发生的事情&quot;&gt;描述发生的事情&lt;/h2&gt;
+&lt;h3 id=&quot;描述发生的事情&quot;&gt;描述发生的事情&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;对行为进行精确的&lt;strong&gt;观察&lt;/strong&gt;；&lt;/li&gt;
+  &lt;li&gt;确定一个适宜的&lt;strong&gt;分析水平（尺度）&lt;/strong&gt;进行行为数据的收集；&lt;/li&gt;
+  &lt;li&gt;努力&lt;strong&gt;客观&lt;/strong&gt;地描述行为。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;解释发生的事情&quot;&gt;解释发生的事情&lt;/h3&gt;
+&lt;p&gt;描述必须忠于可知觉到的信息，而解释却&lt;strong&gt;谨慎地超越&lt;/strong&gt;了能够被观察到的现象。&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;机体变量（秉性变量）：行为的内部决定因素；&lt;/li&gt;
+  &lt;li&gt;环境变量（情景变量）：行为的外部决定因素；&lt;/li&gt;
+  &lt;li&gt;心理学家发目标通常是通过&lt;strong&gt;一个&lt;/strong&gt;潜在的原因去解释&lt;strong&gt;多种&lt;/strong&gt;行为；&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;预测将要发生的事情&quot;&gt;预测将要发生的事情&lt;/h3&gt;
+&lt;p&gt;心理学中的预测是对一个特定的行为将要发生的可能性和一种特定的关系将被发现的可能性的陈述。&lt;/p&gt;
+
+&lt;h3 id=&quot;控制发生的事情&quot;&gt;控制发生的事情&lt;/h3&gt;
+&lt;p&gt;控制意味着使行为发生或不发生，引发它、维持它、停止它，并影响它的形式、强度或频率，如果一个队行为原因的解释能创造控制行为的条件，那么这个解释就是有说服力的。&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;控制帮助人们改善生活质量；&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;现代心理学的发展心理学史&quot;&gt;现代心理学的发展（心理学史）&lt;/h1&gt;
+&lt;p&gt;心理学的历史性回顾的核心是：&lt;strong&gt;观念问题&lt;/strong&gt;，心理学史很大部分都被描述为“对于这样一种关于心理与行为的科学所应包含的适宜研究对象和方法学的激烈辩论”。&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;回顾维度1：重要基础工作完成的历史时期；&lt;/li&gt;
+  &lt;li&gt;回顾维度2：出现在当代的7种观点；&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;心理学的历史根基&quot;&gt;心理学的历史根基&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;公元4、5世纪，希腊经典的哲学问题：人们如何感知现实、意识的性质以及疯癫的起源；&lt;/li&gt;
+  &lt;li&gt;19世纪末，研究者将其他科学的研究方法用于研究这些哲学问题，心理学才作为一门学科出现；&lt;/li&gt;
+  &lt;li&gt;1879，第一个正式的心理学实验室；&lt;/li&gt;
+  &lt;li&gt;截止1900年，美国已经有超过40个心理学实验室；&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;结构主义心理的内容&quot;&gt;结构主义：心理的内容&lt;/h4&gt;
+&lt;p&gt;结构主义基于一种假设：所有的人类精神经验都可以作为基本成分的&lt;strong&gt;联合&lt;/strong&gt;来理解，可以通过分析感觉的构成因素以及其他组成个体精神生活的体验，来解释人类心理的&lt;strong&gt;潜在结构&lt;/strong&gt;。&lt;/p&gt;
+&lt;h4 id=&quot;机能主义有目的的心理&quot;&gt;机能主义：有目的的心理&lt;/h4&gt;
+&lt;p&gt;意识是心理学研究的中心，但意识是流动的，是与环境互相作用的心理活动的内容，重要的是心理过程的&lt;strong&gt;行为和机能&lt;/strong&gt;，而非心理的内容。&lt;/p&gt;
+&lt;h4 id=&quot;这些观点的延续&quot;&gt;这些观点的延续&lt;/h4&gt;
+&lt;p&gt;现代心理学家们同事探索行为的结构和机能。&lt;/p&gt;
+
+&lt;h3 id=&quot;当代心理学的观点&quot;&gt;当代心理学的观点&lt;/h3&gt;
+&lt;p&gt;每种观点，都阐释了影响心理学家们的研究内容和方法的观点和假设，现代大多数心理学家从这些观点中的不止一个借用和混合概念，把它们放在一起就代表了当代心理学所涵盖的一切。&lt;/p&gt;
+&lt;h4 id=&quot;1-生物学观点&quot;&gt;1. 生物学观点&lt;/h4&gt;
+&lt;h4 id=&quot;2-心理动力学观点&quot;&gt;2. 心理动力学观点&lt;/h4&gt;
+&lt;h4 id=&quot;3-行为主义观点&quot;&gt;3. 行为主义观点&lt;/h4&gt;
+&lt;h4 id=&quot;4-人文主义观点&quot;&gt;4. 人文主义观点&lt;/h4&gt;
+&lt;h4 id=&quot;5-认知的观点&quot;&gt;5. 认知的观点&lt;/h4&gt;
+&lt;h4 id=&quot;6-进化论观点&quot;&gt;6. 进化论观点&lt;/h4&gt;
+&lt;h4 id=&quot;7-文化观点&quot;&gt;7. 文化观点&lt;/h4&gt;
 </description>
         <pubDate>Sat, 21 Oct 2017 10:00:00 +0800</pubDate>
         <link>http://papa.melonfamily.com/%E5%BF%83%E7%90%86%E5%AD%A6/2017/10/21/pal-1.html</link>
