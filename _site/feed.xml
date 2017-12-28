@@ -4,11 +4,11 @@
     <title>papa@melonfamily</title>
     <description>Here is papa's blog in melonfamily.
 </description>
-    <link>http://papa.melonfamily.com/</link>
-    <atom:link href="http://papa.melonfamily.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Dec 2017 08:20:24 +0800</pubDate>
-    <lastBuildDate>Wed, 13 Dec 2017 08:20:24 +0800</lastBuildDate>
-    <generator>Jekyll v3.6.0</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 21 Dec 2017 14:12:49 +0800</pubDate>
+    <lastBuildDate>Thu, 21 Dec 2017 14:12:49 +0800</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>速读拓展：2017.12</title>
@@ -26,8 +26,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Tue, 12 Dec 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/12/12/fast-reading.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/12/12/fast-reading.html</guid>
+        <link>http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/12/12/fast-reading.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/12/12/fast-reading.html</guid>
         
         <category>vision</category>
         
@@ -72,8 +72,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Thu, 07 Dec 2017 08:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/programming/2017/12/07/git-svn-mannel.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/12/07/git-svn-mannel.html</guid>
+        <link>http://localhost:4000/programming/2017/12/07/git-svn-mannel.html</link>
+        <guid isPermaLink="true">http://localhost:4000/programming/2017/12/07/git-svn-mannel.html</guid>
         
         <category>misc,ABC</category>
         
@@ -97,8 +97,8 @@
 &lt;p&gt;每天都反思下自己的一天吧，看是否聪明的度过了，是否又离自己的梦想，更近了一些？&lt;/p&gt;
 </description>
         <pubDate>Sat, 18 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/programming/2017/11/18/work-and-flow.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/11/18/work-and-flow.html</guid>
+        <link>http://localhost:4000/programming/2017/11/18/work-and-flow.html</link>
+        <guid isPermaLink="true">http://localhost:4000/programming/2017/11/18/work-and-flow.html</guid>
         
         <category>misc,ABC</category>
         
@@ -412,8 +412,8 @@ public static void main(String[] args) {
 
 </description>
         <pubDate>Mon, 13 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/programming/2017/11/13/java-interview.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/11/13/java-interview.html</guid>
+        <link>http://localhost:4000/programming/2017/11/13/java-interview.html</link>
+        <guid isPermaLink="true">http://localhost:4000/programming/2017/11/13/java-interview.html</guid>
         
         <category>Java,ABC</category>
         
@@ -894,8 +894,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;p&gt;python三引号允许一个字符串跨多行，字符串中可以包含换行符、制表符以及其他特殊字符，三引号让程序员从引号和特殊字符串的泥潭里面解脱出来，自始至终保持一小块字符串的格式是所谓的WYSIWYG（所见即所得）格式的。&lt;/p&gt;
 </description>
         <pubDate>Sat, 11 Nov 2017 08:22:18 +0800</pubDate>
-        <link>http://papa.melonfamily.com/programming/2017/11/11/python-abc.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/11/11/python-abc.html</guid>
+        <link>http://localhost:4000/programming/2017/11/11/python-abc.html</link>
+        <guid isPermaLink="true">http://localhost:4000/programming/2017/11/11/python-abc.html</guid>
         
         <category>Python,ABC</category>
         
@@ -934,8 +934,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;p&gt;之前换工作那会一直持续到现在，也在时不时的想自己到底想要什么，慢慢的有了自己一套说不出的思路。其中包括对以前三观、思维方式的纠正。投资的哲学和生活的道理很多都是想通的，不会生活，也就不会投资。而真正能够把生活过好、过出调理和水平的人，也能把这些道理用到投资上。其实这就是我想表达的，当你的思维、你的想法真正的提升了之后，不出意外的，你的收入才会匹配的提升上来，收入的提升是结果，并非原因。就像长期持有是结果，而非价值投资的成因一样，这点也不被大部分人所理解。&lt;/p&gt;
 </description>
         <pubDate>Wed, 08 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</guid>
+        <link>http://localhost:4000/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</guid>
         
         <category>misc</category>
         
@@ -1630,8 +1630,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;p&gt;不管我们遇到什么问题，都应该先理解，再接受，再改变。任何痛苦都是来自我们与现实的对抗，来自我们想要对过去有所改变的错误期待。勇敢的接受过去，接受当下，能给我们带来更多应对明天挑战的力量。&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</guid>
+        <link>http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</guid>
         
         <category>vision</category>
         
@@ -1850,13 +1850,37 @@ a,b,c=1,2,&quot;name&quot;
 
 </description>
         <pubDate>Fri, 27 Oct 2017 09:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</guid>
+        <link>http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</guid>
         
         <category>vision</category>
         
         
         <category>每天听本书</category>
+        
+      </item>
+    
+      <item>
+        <title>svn to Git</title>
+        <description>&lt;p&gt;参考文章：https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials&lt;/p&gt;
+
+&lt;h1 id=&quot;背景&quot;&gt;背景&lt;/h1&gt;
+&lt;p&gt;公司后端大部分项目使用svn，存在诸多问题，对于一个用惯了git的人，回到过去难以忍受；对于同事们，长久使用svn固然已经形成了一些发布习惯，但也会因为存在“人肉比对”等非自动化操作而带来失误，故先在本研发小组内迁移git，再总结一套开发流程，推广到整个团队。&lt;/p&gt;
+
+&lt;h1 id=&quot;svn开发目前存在的问题&quot;&gt;svn开发目前存在的问题&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;人肉比对：&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Sat, 21 Oct 2017 10:00:00 +0800</pubDate>
+        <link>http://localhost:4000/programming/2017/10/21/svn-2-git.html</link>
+        <guid isPermaLink="true">http://localhost:4000/programming/2017/10/21/svn-2-git.html</guid>
+        
+        <category>svn,git,vcs</category>
+        
+        
+        <category>programming</category>
         
       </item>
     
@@ -1943,55 +1967,13 @@ a,b,c=1,2,&quot;name&quot;
 &lt;h4 id=&quot;7-文化观点&quot;&gt;7. 文化观点&lt;/h4&gt;
 </description>
         <pubDate>Sat, 21 Oct 2017 10:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E5%BF%83%E7%90%86%E5%AD%A6/2017/10/21/pal-1.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E5%BF%83%E7%90%86%E5%AD%A6/2017/10/21/pal-1.html</guid>
+        <link>http://localhost:4000/%E5%BF%83%E7%90%86%E5%AD%A6/2017/10/21/pal-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%E5%BF%83%E7%90%86%E5%AD%A6/2017/10/21/pal-1.html</guid>
         
         <category>cdr,psychology</category>
         
         
         <category>心理学</category>
-        
-      </item>
-    
-      <item>
-        <title>《奇特的一生》</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/awesomelife.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;书名&lt;/th&gt;
-      &lt;th&gt;作者&lt;/th&gt;
-      &lt;th&gt;字数&lt;/th&gt;
-      &lt;th&gt;开始时间&lt;/th&gt;
-      &lt;th&gt;完成时间&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;奇特的一声&lt;/td&gt;
-      &lt;td&gt;柳比歇夫&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;2017-01-01&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;核心脑图&quot;&gt;核心&amp;amp;脑图&lt;/h2&gt;
-&lt;p&gt;alife&lt;/p&gt;
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
-
-&lt;h2 id=&quot;摘录&quot;&gt;摘录&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 21 Oct 2017 10:00:00 +0800</pubDate>
-        <link>http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-wonderful-life.html</link>
-        <guid isPermaLink="true">http://papa.melonfamily.com/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/2017/10/21/a-wonderful-life.html</guid>
-        
-        <category>vision</category>
-        
-        
-        <category>读书笔记</category>
         
       </item>
     

@@ -1,0 +1,32 @@
+<ol>
+  <li>
+    <p>克隆主干，rStartVersion是主干的一个版本号</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git svn clone [svn_url]/trunk -[rStartVersion]:HEAD [targetFolder]
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>添加远端分支</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git config --add svn-remote.[svn/test(自定义远端分支名称)].url [svn_url]/branch/2017xxx（具体远端分支地址）
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>添加远端分支与本地映射</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git config --add svn-remote.[svn/test].fetch [:refs/remotes/svn/test]
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>拉取一个范围的版本</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git svn fetch svn/test -[rStartVersion]:HEAD [targetFolder]
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>切换到开发分支</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git checkout -b test svn/test
+</code></pre></div>    </div>
+  </li>
+</ol>
