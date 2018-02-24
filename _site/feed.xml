@@ -4,16 +4,16 @@
     <title>papa@melonfamily</title>
     <description>Here is papa's blog in melonfamily.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 Dec 2017 17:52:00 +0800</pubDate>
-    <lastBuildDate>Thu, 28 Dec 2017 17:52:00 +0800</lastBuildDate>
+    <link>http://papa.melonfamily.com/</link>
+    <atom:link href="http://papa.melonfamily.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 24 Feb 2018 09:52:58 +0800</pubDate>
+    <lastBuildDate>Sat, 24 Feb 2018 09:52:58 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>《心理学与生活》，第二章：心理学的研究方法</title>
         <description>&lt;h1 id=&quot;发现的背景context-of-discovery&quot;&gt;发现的背景（context of discovery）&lt;/h1&gt;
-&lt;p&gt;发现的背景是研究的开始阶段，在这个阶段中，通过观察、信念、信息和一般的知识，人们形成一个新的贵点或者对于某种现象形成一种不同于以往的思考方法。&lt;/p&gt;
+&lt;p&gt;发现的背景是研究的开始阶段，在这个阶段中，通过观察、信念、信息和一般的知识，人们形成一个新的观点或者对于某种现象形成一种不同于以往的思考方法。&lt;/p&gt;
 
 &lt;h3 id=&quot;心理学研究的基本假设&quot;&gt;心理学研究的基本假设&lt;/h3&gt;
 &lt;ol&gt;
@@ -25,11 +25,31 @@
 &lt;ol&gt;
   &lt;li&gt;科学要求对任何结论持有开放的、批评的和怀疑的态度；&lt;/li&gt;
   &lt;li&gt;科学实践的基础是尊重那些通过控制的观察和仔细测量而获得的事实。&lt;/li&gt;
+  &lt;li&gt;所有数据和方法必须最后公布出来以获得公众的验证。&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;hr /&gt;
 
 &lt;h1 id=&quot;验证的背景客观性的保障&quot;&gt;验证的背景：客观性的保障&lt;/h1&gt;
+&lt;p&gt;验证的背景是把证据哪来验证假设的研究阶段，这里需要 &lt;strong&gt;科学的方法&lt;/strong&gt; 作为保障。科学方法帮助我们应对 &lt;strong&gt;客观性挑战&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&quot;客观性挑战1观察者偏见和操作性定义&quot;&gt;客观性挑战1：观察者偏见和操作性定义&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;观察者偏见：由于观察者个人的动机和预期导致的错误。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;为了使观察者偏见降到最小，研究者依赖于标准化和操作性定义。&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;标准化：在数据的收集阶段使用统一的、一致的程序&lt;/li&gt;
+  &lt;li&gt;操作化：对观察本身的标准化，** 操作性定义** 是以测量它或决定它存在的特定的操作或程序来界定的一个概念，在一个实验内使含义标准化。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;客观性挑战2实验法其他可选择的解释和控制的必要&quot;&gt;客观性挑战2：实验法——其他可选择的解释和控制的必要&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;实验法：操作一个自变量来观察其在因变量上产生的效果。
+混淆变量：无意中引入实验、确实影响了被试的行为，并对数据解释增加了混乱的因素。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;普遍的混淆变量：期望效应（观察者的预期真正诱发了所观察到反应)和安慰剂效应&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -44,8 +64,8 @@
 &lt;h1 id=&quot;成为明智的研究用户&quot;&gt;成为明智的研究用户&lt;/h1&gt;
 </description>
         <pubDate>Thu, 14 Dec 2017 10:00:00 +0800</pubDate>
-        <link>http://localhost:4000/%E5%BF%83%E7%90%86%E5%AD%A6/2017/12/14/pal-2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E5%BF%83%E7%90%86%E5%AD%A6/2017/12/14/pal-2.html</guid>
+        <link>http://papa.melonfamily.com/%E5%BF%83%E7%90%86%E5%AD%A6/2017/12/14/pal-2.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/%E5%BF%83%E7%90%86%E5%AD%A6/2017/12/14/pal-2.html</guid>
         
         <category>cdr,psychology</category>
         
@@ -70,8 +90,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Tue, 12 Dec 2017 09:00:00 +0800</pubDate>
-        <link>http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/12/12/fast-reading.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/12/12/fast-reading.html</guid>
+        <link>http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/12/12/fast-reading.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/12/12/fast-reading.html</guid>
         
         <category>vision</category>
         
@@ -116,8 +136,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Thu, 07 Dec 2017 08:00:00 +0800</pubDate>
-        <link>http://localhost:4000/programming/2017/12/07/git-svn-mannel.html</link>
-        <guid isPermaLink="true">http://localhost:4000/programming/2017/12/07/git-svn-mannel.html</guid>
+        <link>http://papa.melonfamily.com/programming/2017/12/07/git-svn-mannel.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/12/07/git-svn-mannel.html</guid>
         
         <category>misc,ABC</category>
         
@@ -141,8 +161,8 @@
 &lt;p&gt;每天都反思下自己的一天吧，看是否聪明的度过了，是否又离自己的梦想，更近了一些？&lt;/p&gt;
 </description>
         <pubDate>Sat, 18 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://localhost:4000/programming/2017/11/18/work-and-flow.html</link>
-        <guid isPermaLink="true">http://localhost:4000/programming/2017/11/18/work-and-flow.html</guid>
+        <link>http://papa.melonfamily.com/programming/2017/11/18/work-and-flow.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/11/18/work-and-flow.html</guid>
         
         <category>misc,ABC</category>
         
@@ -456,8 +476,8 @@ public static void main(String[] args) {
 
 </description>
         <pubDate>Mon, 13 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://localhost:4000/programming/2017/11/13/java-interview.html</link>
-        <guid isPermaLink="true">http://localhost:4000/programming/2017/11/13/java-interview.html</guid>
+        <link>http://papa.melonfamily.com/programming/2017/11/13/java-interview.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/11/13/java-interview.html</guid>
         
         <category>Java,ABC</category>
         
@@ -938,8 +958,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;p&gt;python三引号允许一个字符串跨多行，字符串中可以包含换行符、制表符以及其他特殊字符，三引号让程序员从引号和特殊字符串的泥潭里面解脱出来，自始至终保持一小块字符串的格式是所谓的WYSIWYG（所见即所得）格式的。&lt;/p&gt;
 </description>
         <pubDate>Sat, 11 Nov 2017 08:22:18 +0800</pubDate>
-        <link>http://localhost:4000/programming/2017/11/11/python-abc.html</link>
-        <guid isPermaLink="true">http://localhost:4000/programming/2017/11/11/python-abc.html</guid>
+        <link>http://papa.melonfamily.com/programming/2017/11/11/python-abc.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/11/11/python-abc.html</guid>
         
         <category>Python,ABC</category>
         
@@ -978,8 +998,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;p&gt;之前换工作那会一直持续到现在，也在时不时的想自己到底想要什么，慢慢的有了自己一套说不出的思路。其中包括对以前三观、思维方式的纠正。投资的哲学和生活的道理很多都是想通的，不会生活，也就不会投资。而真正能够把生活过好、过出调理和水平的人，也能把这些道理用到投资上。其实这就是我想表达的，当你的思维、你的想法真正的提升了之后，不出意外的，你的收入才会匹配的提升上来，收入的提升是结果，并非原因。就像长期持有是结果，而非价值投资的成因一样，这点也不被大部分人所理解。&lt;/p&gt;
 </description>
         <pubDate>Wed, 08 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://localhost:4000/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</guid>
+        <link>http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%9D%82%E8%AE%B0/2017/11/08/life-and-investment.html</guid>
         
         <category>misc</category>
         
@@ -1674,8 +1694,8 @@ a,b,c=1,2,&quot;name&quot;
 &lt;p&gt;不管我们遇到什么问题，都应该先理解，再接受，再改变。任何痛苦都是来自我们与现实的对抗，来自我们想要对过去有所改变的错误期待。勇敢的接受过去，接受当下，能给我们带来更多应对明天挑战的力量。&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Nov 2017 09:00:00 +0800</pubDate>
-        <link>http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</guid>
+        <link>http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/11/01/fast-reading.html</guid>
         
         <category>vision</category>
         
@@ -1894,8 +1914,8 @@ a,b,c=1,2,&quot;name&quot;
 
 </description>
         <pubDate>Fri, 27 Oct 2017 09:00:00 +0800</pubDate>
-        <link>http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</guid>
+        <link>http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/%E6%AF%8F%E5%A4%A9%E5%90%AC%E6%9C%AC%E4%B9%A6/2017/10/27/fast-reading.html</guid>
         
         <category>vision</category>
         
@@ -1918,8 +1938,8 @@ a,b,c=1,2,&quot;name&quot;
 
 </description>
         <pubDate>Sat, 21 Oct 2017 10:00:00 +0800</pubDate>
-        <link>http://localhost:4000/programming/2017/10/21/svn-2-git.html</link>
-        <guid isPermaLink="true">http://localhost:4000/programming/2017/10/21/svn-2-git.html</guid>
+        <link>http://papa.melonfamily.com/programming/2017/10/21/svn-2-git.html</link>
+        <guid isPermaLink="true">http://papa.melonfamily.com/programming/2017/10/21/svn-2-git.html</guid>
         
         <category>svn,git,vcs</category>
         
