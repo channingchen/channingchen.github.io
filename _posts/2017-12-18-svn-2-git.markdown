@@ -2,7 +2,7 @@
 layout: post
 title: "svn to Git"
 date: 2017-10-21 02:00:00
-categories: programming
+categories: Programming
 tags: svn,git,vcs
 ---
 
